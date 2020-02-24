@@ -1211,7 +1211,7 @@
        Overriding target "GetNativeManifest" in project "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" with target "GetNativeManifest" from project "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets".
        Overriding target "GetTargetPathWithTargetPlatformMoniker" in project "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" with target "GetTargetPathWithTargetPlatformMoniker" from project "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.DesignTime.targets".
        The target "CoreCompile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VisualStudio\v16.0\CodeAnalysis\Microsoft.CodeAnalysis.targets (57,12)" does not exist in the project, and will be ignored.
-Build started 24/02/2020 21:23:46.
+Build started 24/02/2020 21:29:40.
      1>Project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" on node 2 (Build target(s)).
      1>Building with tools version "Current".
        Project file contains ToolsVersion="16.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="Current". For more information, please see http://go.microsoft.com/fwlink/?LinkId=293424.
@@ -1435,7 +1435,7 @@ Build started 24/02/2020 21:23:46.
        Task "MSBuild"
          Global Properties:
            QtInnerBuild=E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj
-           RandomFileName=h5ldz4xk.24u
+           RandomFileName=1fnpjjkc.juy
      0>Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
        Trying to import C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\$(MSBuildToolsVersion)\Microsoft.Common.props using extensions path C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild
        Property reassignment: $(MSBuildProjectExtensionsPath)="E:\Project\SOFT20091-SDI\obj\" (previous value: "obj\") at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Microsoft.Common.props (56,5)
@@ -2660,7 +2660,7 @@ Build started 24/02/2020 21:23:46.
          VSTEL_SolutionSessionID={6F6564FC-4CE5-4EAE-A8B0-80C518982E6C}
        Done executing task "SetEnv".
        Task "SetEnv"
-         VSTEL_CurrentSolutionBuildID=23042187
+         VSTEL_CurrentSolutionBuildID=23397250
        Done executing task "SetEnv".
        Task "SetEnv"
          VSTEL_ProjectID={939CEFA8-A703-4E52-B447-B8D00E16C3D0}
@@ -3008,16 +3008,16 @@ Build started 24/02/2020 21:23:46.
          	build\x64\Debug\QtConsol.939CEFA8.tlog\CL.read.1.tlog
          Outputs for E:\PROJECT\SOFT20091-SDI\SRC\MAIN.CPP:
          	E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MAIN.OBJ
-         src\main.cpp will be compiled because E:\Project\SOFT20091-SDI\src\main.cpp was modified at 24/02/2020 21:23:33.
+         src\main.cpp will be compiled because E:\Project\SOFT20091-SDI\src\main.cpp was modified at 24/02/2020 21:27:40.
          Outputs for E:\PROJECT\SOFT20091-SDI\SRC\MAIN.CPP:
          	E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MAIN.OBJ
          Write Tracking Logs:
          	build\x64\Debug\QtConsol.939CEFA8.tlog\CL.write.1.tlog
          Environment Variables passed to tool:
-           VS_UNICODE_OUTPUT=1652
+           VS_UNICODE_OUTPUT=1956
          C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX86\x64\CL.exe /c /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtWidgets /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtGui /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtANGLE /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtCore /I/include /I"C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\mkspecs\win32-msvc" /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /D UNICODE /D _UNICODE /D WIN32 /D _ENABLE_EXTENDED_ALIGNED_STORAGE /D WIN64 /D NDEBUG /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"build\x64\Debug\\" /Fd"build\x64\Debug\vc142.pdb" /Gd /TP /FC /errorReport:prompt src\main.cpp
          Tracking command:
-         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i E:\Project\SOFT20091-SDI\build\x64\Debug\QtConsol.939CEFA8.tlog /r E:\PROJECT\SOFT20091-SDI\SRC\MAIN.CPP /b MSBuildConsole_CancelEvent3824fe1afc6346a3b51ba40ef4b8573d  /c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX86\x64\CL.exe"  /c /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtWidgets /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtGui /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtANGLE /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtCore /I/include /I"C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\mkspecs\win32-msvc" /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /D UNICODE /D _UNICODE /D WIN32 /D _ENABLE_EXTENDED_ALIGNED_STORAGE /D WIN64 /D NDEBUG /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"build\x64\Debug\\" /Fd"build\x64\Debug\vc142.pdb" /Gd /TP /FC /errorReport:prompt src\main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i E:\Project\SOFT20091-SDI\build\x64\Debug\QtConsol.939CEFA8.tlog /r E:\PROJECT\SOFT20091-SDI\SRC\MAIN.CPP /b MSBuildConsole_CancelEvent72c7c23a527c426eb121c007584eecdc  /c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX86\x64\CL.exe"  /c /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtWidgets /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtGui /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtANGLE /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtCore /I/include /I"C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\mkspecs\win32-msvc" /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /D UNICODE /D _UNICODE /D WIN32 /D _ENABLE_EXTENDED_ALIGNED_STORAGE /D WIN64 /D NDEBUG /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"build\x64\Debug\\" /Fd"build\x64\Debug\vc142.pdb" /Gd /TP /FC /errorReport:prompt src\main.cpp
          main.cpp
        Done executing task "CL".
    1:2>Done building target "ClCompile" in project "QtConsoleApplication3.vcxproj".
@@ -3135,8 +3135,8 @@ Build started 24/02/2020 21:23:46.
          Read Tracking Logs:
          	build\x64\Debug\QtConsol.939CEFA8.tlog\link.read.1.tlog
          Outputs for E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MAIN.OBJ:
-         	E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\QTCONSOLEAPPLICATION3.EXE
          	E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\QTCONSOLEAPPLICATION3.ILK
+         	E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\QTCONSOLEAPPLICATION3.EXE
          	E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\QTCONSOLEAPPLICATION3.PDB
          Inputs for E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MAIN.OBJ:
          	C:\QT\QT5.14.0\5.14.0\MSVC2017_64\LIB\QT5WIDGETSD.LIB
@@ -3157,19 +3157,20 @@ Build started 24/02/2020 21:23:46.
          	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UM\X64\ODBCCP32.LIB
          	E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MAIN.OBJ
          	C:\WINDOWS\SYSTEM32\TZRES.DLL
+         	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2019\COMMUNITY\VC\TOOLS\MSVC\14.23.28105\BIN\HOSTX86\X64\1033\LINKUI.DLL
          	C:\WINDOWS\GLOBALIZATION\SORTING\SORTDEFAULT.NLS
          	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2019\COMMUNITY\VC\TOOLS\MSVC\14.23.28105\LIB\X64\MSVCPRTD.LIB
          	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2019\COMMUNITY\VC\TOOLS\MSVC\14.23.28105\LIB\X64\MSVCRTD.LIB
          	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2019\COMMUNITY\VC\TOOLS\MSVC\14.23.28105\LIB\X64\OLDNAMES.LIB
          	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2019\COMMUNITY\VC\TOOLS\MSVC\14.23.28105\LIB\X64\VCRUNTIMED.LIB
          	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UCRT\X64\UCRTD.LIB
+         	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2019\COMMUNITY\VC\TOOLS\MSVC\14.23.28105\BIN\HOSTX86\X64\CVTRES.EXE
          Source compilation required: input E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MAIN.OBJ is newer than output E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\QTCONSOLEAPPLICATION3.EXE.
          Environment Variables passed to tool:
-           VS_UNICODE_OUTPUT=1728
+           VS_UNICODE_OUTPUT=1980
          C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX86\x64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Project\SOFT20091-SDI\\build\x64\Debug\\QtConsoleApplication3.exe" /NOLOGO /LIBPATH:C:\openssl\lib /LIBPATH:"C:\Utils\my_sql\mysql-5.7.25-winx64\lib" /LIBPATH:C:\Utils\postgresql\pgsql\lib C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\lib\Qt5Widgetsd.lib C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\lib\Qt5Guid.lib C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\lib\Qt5Cored.lib C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\lib\qtmaind.lib shell32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Project\SOFT20091-SDI\\build\x64\Debug\QtConsoleApplication3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Project\SOFT20091-SDI\\build\x64\Debug\QtConsoleApplication3.lib" /MACHINE:X64 build\x64\Debug\main.obj
          Tracking command:
-         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i E:\Project\SOFT20091-SDI\build\x64\Debug\QtConsol.939CEFA8.tlog /r E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MAIN.OBJ /b MSBuildConsole_CancelEvente87df5b8dc194523b825c587aef04b8f  /c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX86\x64\link.exe"  /ERRORREPORT:PROMPT /OUT:"E:\Project\SOFT20091-SDI\\build\x64\Debug\\QtConsoleApplication3.exe" /NOLOGO /LIBPATH:C:\openssl\lib /LIBPATH:"C:\Utils\my_sql\mysql-5.7.25-winx64\lib" /LIBPATH:C:\Utils\postgresql\pgsql\lib C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\lib\Qt5Widgetsd.lib C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\lib\Qt5Guid.lib C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\lib\Qt5Cored.lib C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\lib\qtmaind.lib shell32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Project\SOFT20091-SDI\\build\x64\Debug\QtConsoleApplication3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Project\SOFT20091-SDI\\build\x64\Debug\QtConsoleApplication3.lib" /MACHINE:X64 build\x64\Debug\main.obj
-         LINK : E:\Project\SOFT20091-SDI\\build\x64\Debug\\QtConsoleApplication3.exe not found or not built by the last incremental link; performing full link
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i E:\Project\SOFT20091-SDI\build\x64\Debug\QtConsol.939CEFA8.tlog /r E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MAIN.OBJ /b MSBuildConsole_CancelEvent40a958b332104946910f2677a7fd2a04  /c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX86\x64\link.exe"  /ERRORREPORT:PROMPT /OUT:"E:\Project\SOFT20091-SDI\\build\x64\Debug\\QtConsoleApplication3.exe" /NOLOGO /LIBPATH:C:\openssl\lib /LIBPATH:"C:\Utils\my_sql\mysql-5.7.25-winx64\lib" /LIBPATH:C:\Utils\postgresql\pgsql\lib C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\lib\Qt5Widgetsd.lib C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\lib\Qt5Guid.lib C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\lib\Qt5Cored.lib C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\lib\qtmaind.lib shell32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Project\SOFT20091-SDI\\build\x64\Debug\QtConsoleApplication3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Project\SOFT20091-SDI\\build\x64\Debug\QtConsoleApplication3.lib" /MACHINE:X64 build\x64\Debug\main.obj
        Done executing task "Link".
        Task "Message"
          QtConsoleApplication3.vcxproj -> E:\Project\SOFT20091-SDI\\build\x64\Debug\QtConsoleApplication3.exe
@@ -3325,4 +3326,4 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.89
+Time Elapsed 00:00:01.63
