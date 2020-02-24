@@ -11,14 +11,8 @@
 {
 public:
 	uint64_t x;
-	//long y;
+
 	TestClass(uint64_t a);
-	/*{
-		x = a;
-		dbl(a);
-		mult(a);
-		pwr(a);
-	}*/
 
 	int /*TestClass::*/dbl(uint64_t a)/** Doubles provided Values **/
 	{
@@ -41,14 +35,8 @@ public:
 
 TestClass::TestClass(uint64_t a)
 	{
-		/*long*/ x = a;
-		//y;
-		//y = (long)a;
-		/*TestClass::*/dbl(a);
+		 x = a;
+		dbl(a);
 		mult(a);
 		pwr(a);
 	}
-//TestClass::~TestClass()
-//{
-//
-//}
