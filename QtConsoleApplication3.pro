@@ -4,7 +4,7 @@
 
 TEMPLATE = app
 TARGET = QtConsoleApplication3
-DESTDIR = ./x64/Debug
+DESTDIR = ./build/x64/Debug
 CONFIG += debug console
 LIBS += -L"."
 DEPENDPATH += .
