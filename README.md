@@ -5,7 +5,7 @@
  * __Fix Layout to be more faithful to the GUI mockup__
  * __Add treeView dialog for img file browsing and access__ -_(Progress: 30%)_
 	* add native methods of sorting and organising ItemModels without relying on explorer
- /**add Framebuffer for image rendering/drawing for backend OpenCV functionality
+ * __Add Framebuffer for image rendering/drawing for backend OpenCV functionality__
  * __Add versioning__
  * __Add documentation__
  	* Code Style and Contribution guides
