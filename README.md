@@ -2,18 +2,23 @@
 
 
 # todo 
- * Add treeView dialog for img file browsing and access **/
+ * __Add treeView dialog for img file browsing and access__ -_(Progress: 30%)_
 	* add native methods of sorting and organising ItemModels without relying on explorer
- /** add Framebuffer for image rendering/drawing for backend OpenCV functionality
- * add versioning
- * Add Ci and unit testing integration
- * 
- **/
+ /**add Framebuffer for image rendering/drawing for backend OpenCV functionality
+ * __Add versioning__
+ * __Add documentation__
+ 	* Code Style and Contribution guides
+ * __Add Ci and unit testing integration__
+ 	* An easily accesible CI tool for begginers such as CircleCi may be a good fit
+ * __Split MainWindow betwen various SubWidgets__ _(QSplitter Class may be usefull for this)
+
  
  # Secondary
-	/* Add theme support for improved Aesthetics?*/
-	..s
+	Add theme support for improved Aesthetics?
 	
-	#.misc
-		* Build tests for other platforms (OSX, LInux e.g.)
-		* WidgetTabs 
+	
+	
+# .misc
+	Build tests for other platforms (OSX, Linux e.g.)
+	Configuration options
+	WidgetTabs 
