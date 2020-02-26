@@ -10,12 +10,7 @@ class QAPP : public QMainWindow
 	Q_OBJECT
 public:
 	explicit QAPP(/*QDesktopServices QD, */QWidget* parent = 0); //PointerBlackMagic
-	//QDesktopServices QD;
-	//QWidget* QW =nullptr;
-	//QPushButton* AddImgs = nullptr; /**PointerBlackMagic Must be pounet othrwise connect isn;t accesible for some reasion**/
-	//QUrl OpenThis;// = "file:///C:/Documents and Settings/All Users/";
-	/*int x = 100;
-	int y = 100;*/void Setlocation();
+	void Setlocation();
 	QUrl Url;
 signals:
 	void OpeningDir();
@@ -32,7 +27,4 @@ private:
 
 
 };
-
-
-
 //#endif // !QAPP
