@@ -2,6 +2,7 @@
 
 
 # todo 
+ * __Fix Layout to be more faithful to the GUI mockup__
  * __Add treeView dialog for img file browsing and access__ -_(Progress: 30%)_
 	* add native methods of sorting and organising ItemModels without relying on explorer
  /**add Framebuffer for image rendering/drawing for backend OpenCV functionality
@@ -15,10 +16,11 @@
  
  # Secondary
 	Add theme support for improved Aesthetics?
+	Fix project structure
+	Display modes for FileSystem
 	
 	
-	
-# .misc
+# .Misc
 	Build tests for other platforms (OSX, Linux e.g.)
 	Configuration options
 	WidgetTabs 
