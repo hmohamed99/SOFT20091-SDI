@@ -1,5 +1,6 @@
 # SOFT20091-SDI
 
+___Built on QT Framework V5.14.1 so may need to install v5.12 or later to build properly___
 
 # todo 
  * __Fix Layout to be more faithful to the GUI mockup__
