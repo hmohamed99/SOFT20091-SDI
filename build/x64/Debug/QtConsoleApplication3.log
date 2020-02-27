@@ -12,7 +12,7 @@
        The "LangID" property is a global property, and cannot be modified.
        The "SolutionDir" property is a global property, and cannot be modified.
        Property reassignment: $(MSBuildAllProjects)=";E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.targets;E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj.user" (previous value: ";E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.targets") at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.Default.props (170,5)
-       Property reassignment: $(PlatformToolset)="v142" (previous value: "v100") at E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj (33,5)
+       Property reassignment: $(PlatformToolset)="v142" (previous value: "v100") at E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj (36,5)
        Property reassignment: $(WindowsSDK_ExecutablePath_x86)="C:\Program Files (x86)\Windows Kits\10\bin\10.0.17763.0\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.7.2 Tools" (previous value: "C:\Program Files (x86)\Windows Kits\10\bin\10.0.17763.0\x86;") at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.WindowsSDK.props (146,5)
        Property reassignment: $(WindowsSDK_ExecutablePath_x64)="C:\Program Files (x86)\Windows Kits\10\bin\10.0.17763.0\x64;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.7.2 Tools\x64" (previous value: "C:\Program Files (x86)\Windows Kits\10\bin\10.0.17763.0\x64;") at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.WindowsSDK.props (147,5)
        Property reassignment: $(TargetExt)=".exe" (previous value: "") at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.Common.props (28,5)
@@ -31,8 +31,8 @@
        Property reassignment: $(VC_LibraryPath_x64)="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\lib\x64;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\atlmfc\lib\x64;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\lib\x64;;C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\ucrt\x64;;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\UnitTest\lib" (previous value: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\lib\x64;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\atlmfc\lib\x64;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\lib\x64;;C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\ucrt\x64;;") at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.UnitTest.props (20,5)
        Property reassignment: $(VC_LibraryPath_ARM)="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\lib\ARM;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\atlmfc\lib\ARM;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\lib\ARM;;C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\ucrt\arm;;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\UnitTest\lib" (previous value: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\lib\ARM;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\atlmfc\lib\ARM;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\lib\ARM;;C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\ucrt\arm;;") at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.UnitTest.props (21,5)
        Property reassignment: $(_PropertySheetDisplayName)="Application" (previous value: "Core Windows Libraries") at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.Application.props (15,5)
-       Property reassignment: $(IntDir)="build\x64\Debug\" (previous value: "x64\Debug\") at E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj (53,5)
-       Property reassignment: $(OutDir)="E:\Project\SOFT20091-SDI\build\x64\Debug\" (previous value: "E:\Project\SOFT20091-SDI\x64\Debug\") at E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj (54,5)
+       Property reassignment: $(IntDir)="build\x64\Debug\" (previous value: "x64\Debug\") at E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj (56,5)
+       Property reassignment: $(OutDir)="E:\Project\SOFT20091-SDI\build\x64\Debug\" (previous value: "E:\Project\SOFT20091-SDI\x64\Debug\") at E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj (57,5)
        Property reassignment: $(QtVsProjectVersion)="302" (previous value: "0") at C:\Users\CB\AppData\Local\QtMsBuild\qt.props (58,5)
        Property reassignment: $(Qt_INCLUDEPATH_)="C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include;C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtWidgets;C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtGui;C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtANGLE;C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtCore;/include;C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\mkspecs\win32-msvc;build\x64\Debug\moc" (previous value: "C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include;C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtWidgets;C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtGui;C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtANGLE;C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtCore;/include;C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\mkspecs\win32-msvc") at E:\Project\SOFT20091-SDI\build\x64\Debug\qmake\qtvars_x64_Debug.props (7,1)
        Property reassignment: $(SubFolder)="" (previous value: "C:\Users\CB\AppData\Local\QtMsBuild\moc;C:\Users\CB\AppData\Local\QtMsBuild\qml;C:\Users\CB\AppData\Local\QtMsBuild\rcc;C:\Users\CB\AppData\Local\QtMsBuild\repc;C:\Users\CB\AppData\Local\QtMsBuild\uic") at C:\Users\CB\AppData\Local\QtMsBuild\qt.props (207,5)
@@ -1210,14 +1210,14 @@
        Overriding target "GetNativeManifest" in project "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" with target "GetNativeManifest" from project "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets".
        Overriding target "GetTargetPathWithTargetPlatformMoniker" in project "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" with target "GetTargetPathWithTargetPlatformMoniker" from project "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.DesignTime.targets".
        The target "CoreCompile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VisualStudio\v16.0\CodeAnalysis\Microsoft.CodeAnalysis.targets (57,12)" does not exist in the project, and will be ignored.
-Build started 25/02/2020 23:25:11.
+Build started 27/02/2020 16:51:29.
      1>Project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" on node 2 (Build target(s)).
      1>Building with tools version "Current".
        Project file contains ToolsVersion="16.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="Current". For more information, please see http://go.microsoft.com/fwlink/?LinkId=293424.
      1>Target "_PrepareForReferenceResolution" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "ResolveReferences" depends on it):
        Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
      1>Done building target "_PrepareForReferenceResolution" in project "QtConsoleApplication3.vcxproj".
-       Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('main.cpp;QApp.cpp;TreeView.cpp'!='' and 'false'=='true' and '' != 'false').
+       Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('ConnectionHandlerFactory.cpp;ConnectionInterface.cpp;main.cpp;QApp.cpp;TreeView.cpp;TreeViewWidget.h'!='' and 'false'=='true' and '' != 'false').
      1>Target "BeforeResolveReferences" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "ResolveReferences" depends on it):
      1>Done building target "BeforeResolveReferences" in project "QtConsoleApplication3.vcxproj".
      1>Target "AssignProjectConfiguration" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "ResolveReferences" depends on it):
@@ -1345,7 +1345,7 @@ Build started 25/02/2020 23:25:11.
        Done executing task "MakeDir".
      1>Done building target "PrepareForBuild" in project "QtConsoleApplication3.vcxproj".
        Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
-       Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('main.cpp;QApp.cpp;TreeView.cpp'!='' and 'false'=='true' and '' != 'false').
+       Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('ConnectionHandlerFactory.cpp;ConnectionInterface.cpp;main.cpp;QApp.cpp;TreeView.cpp;TreeViewWidget.h'!='' and 'false'=='true' and '' != 'false').
        Target "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
      1>Target "ResolveSDKReferences" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "ResolveAssemblyReferences" depends on it):
        Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
@@ -1434,7 +1434,7 @@ Build started 25/02/2020 23:25:11.
        Task "MSBuild"
          Global Properties:
            QtInnerBuild=E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj
-           RandomFileName=udrjj5jz.lmy
+           RandomFileName=2bztplw5.uw4
      0>Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
        Trying to import C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\$(MSBuildToolsVersion)\Microsoft.Common.props using extensions path C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild
        Property reassignment: $(MSBuildProjectExtensionsPath)="E:\Project\SOFT20091-SDI\obj\" (previous value: "obj\") at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Microsoft.Common.props (56,5)
@@ -1449,7 +1449,7 @@ Build started 25/02/2020 23:25:11.
        The "LangID" property is a global property, and cannot be modified.
        The "SolutionDir" property is a global property, and cannot be modified.
        Property reassignment: $(MSBuildAllProjects)=";E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.targets;E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj.user" (previous value: ";E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.targets") at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.Default.props (170,5)
-       Property reassignment: $(PlatformToolset)="v142" (previous value: "v100") at E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj (33,5)
+       Property reassignment: $(PlatformToolset)="v142" (previous value: "v100") at E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj (36,5)
        Property reassignment: $(WindowsSDK_ExecutablePath_x86)="C:\Program Files (x86)\Windows Kits\10\bin\10.0.17763.0\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.7.2 Tools" (previous value: "C:\Program Files (x86)\Windows Kits\10\bin\10.0.17763.0\x86;") at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.WindowsSDK.props (146,5)
        Property reassignment: $(WindowsSDK_ExecutablePath_x64)="C:\Program Files (x86)\Windows Kits\10\bin\10.0.17763.0\x64;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.7.2 Tools\x64" (previous value: "C:\Program Files (x86)\Windows Kits\10\bin\10.0.17763.0\x64;") at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.WindowsSDK.props (147,5)
        Property reassignment: $(TargetExt)=".exe" (previous value: "") at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.Common.props (28,5)
@@ -1468,8 +1468,8 @@ Build started 25/02/2020 23:25:11.
        Property reassignment: $(VC_LibraryPath_x64)="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\lib\x64;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\atlmfc\lib\x64;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\lib\x64;;C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\ucrt\x64;;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\UnitTest\lib" (previous value: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\lib\x64;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\atlmfc\lib\x64;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\lib\x64;;C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\ucrt\x64;;") at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.UnitTest.props (20,5)
        Property reassignment: $(VC_LibraryPath_ARM)="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\lib\ARM;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\atlmfc\lib\ARM;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\lib\ARM;;C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\ucrt\arm;;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\UnitTest\lib" (previous value: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\lib\ARM;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\atlmfc\lib\ARM;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\lib\ARM;;C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\ucrt\arm;;") at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.UnitTest.props (21,5)
        Property reassignment: $(_PropertySheetDisplayName)="Application" (previous value: "Core Windows Libraries") at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.Application.props (15,5)
-       Property reassignment: $(IntDir)="build\x64\Debug\" (previous value: "x64\Debug\") at E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj (53,5)
-       Property reassignment: $(OutDir)="E:\Project\SOFT20091-SDI\build\x64\Debug\" (previous value: "E:\Project\SOFT20091-SDI\x64\Debug\") at E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj (54,5)
+       Property reassignment: $(IntDir)="build\x64\Debug\" (previous value: "x64\Debug\") at E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj (56,5)
+       Property reassignment: $(OutDir)="E:\Project\SOFT20091-SDI\build\x64\Debug\" (previous value: "E:\Project\SOFT20091-SDI\x64\Debug\") at E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj (57,5)
        Property reassignment: $(QtVsProjectVersion)="302" (previous value: "0") at C:\Users\CB\AppData\Local\QtMsBuild\qt.props (58,5)
        Property reassignment: $(Qt_INCLUDEPATH_)="C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include;C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtWidgets;C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtGui;C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtANGLE;C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtCore;/include;C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\mkspecs\win32-msvc;build\x64\Debug\moc" (previous value: "C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include;C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtWidgets;C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtGui;C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtANGLE;C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtCore;/include;C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\mkspecs\win32-msvc") at E:\Project\SOFT20091-SDI\build\x64\Debug\qmake\qtvars_x64_Debug.props (7,1)
        Property reassignment: $(SubFolder)="" (previous value: "C:\Users\CB\AppData\Local\QtMsBuild\moc;C:\Users\CB\AppData\Local\QtMsBuild\qml;C:\Users\CB\AppData\Local\QtMsBuild\rcc;C:\Users\CB\AppData\Local\QtMsBuild\repc;C:\Users\CB\AppData\Local\QtMsBuild\uic") at C:\Users\CB\AppData\Local\QtMsBuild\qt.props (207,5)
@@ -2655,10 +2655,10 @@ Build started 25/02/2020 23:25:11.
    1:2>Target "SetTelemetryEnvironmentVariables" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.DesignTime.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "Build" depends on it):
        Using "SetEnv" task from assembly "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Build.CppTasks.Common.dll".
        Task "SetEnv"
-         VSTEL_SolutionSessionID={BDECB421-717B-4FC4-81D4-1FAEB86A3CB3}
+         VSTEL_SolutionSessionID={26B9FBE3-9B06-4E17-B4AC-E05709706A62}
        Done executing task "SetEnv".
        Task "SetEnv"
-         VSTEL_CurrentSolutionBuildID=33244953
+         VSTEL_CurrentSolutionBuildID=4345843
        Done executing task "SetEnv".
        Task "SetEnv"
          VSTEL_ProjectID={939CEFA8-A703-4E52-B447-B8D00E16C3D0}
@@ -2670,7 +2670,7 @@ Build started 25/02/2020 23:25:11.
    1:2>Target "_PrepareForReferenceResolution" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "ResolveReferences" depends on it):
        Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
    1:2>Done building target "_PrepareForReferenceResolution" in project "QtConsoleApplication3.vcxproj".
-       Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('main.cpp;QApp.cpp;TreeView.cpp'!='' and 'false'=='true' and '' != 'false').
+       Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('ConnectionHandlerFactory.cpp;ConnectionInterface.cpp;main.cpp;QApp.cpp;TreeView.cpp;TreeViewWidget.h'!='' and 'false'=='true' and '' != 'false').
    1:2>Target "BeforeResolveReferences" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "ResolveReferences" depends on it):
    1:2>Done building target "BeforeResolveReferences" in project "QtConsoleApplication3.vcxproj".
    1:2>Target "AssignProjectConfiguration" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "ResolveReferences" depends on it):
@@ -2777,7 +2777,7 @@ Build started 25/02/2020 23:25:11.
        Done executing task "MakeDir".
    1:2>Done building target "PrepareForBuild" in project "QtConsoleApplication3.vcxproj".
        Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
-       Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('main.cpp;QApp.cpp;TreeView.cpp'!='' and 'false'=='true' and '' != 'false').
+       Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('ConnectionHandlerFactory.cpp;ConnectionInterface.cpp;main.cpp;QApp.cpp;TreeView.cpp;TreeViewWidget.h'!='' and 'false'=='true' and '' != 'false').
        Target "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
    1:2>Target "ResolveSDKReferences" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "ResolveAssemblyReferences" depends on it):
        Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
@@ -2905,9 +2905,12 @@ Build started 25/02/2020 23:25:11.
        Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
    1:2>Done building target "ComputeReferenceCLInput" in project "QtConsoleApplication3.vcxproj".
    1:2>Target "WarnCompileDuplicatedFilename" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_ClCompile" depends on it):
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'ConnectionHandlerFactory.cpp' != 'ConnectionHandlerFactory.cpp' and 'build\x64\Debug\' == 'build\x64\Debug\').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'ConnectionInterface.cpp' != 'ConnectionInterface.cpp' and 'build\x64\Debug\' == 'build\x64\Debug\').
        Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'main.cpp' != 'main.cpp' and 'build\x64\Debug\' == 'build\x64\Debug\').
        Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'QApp.cpp' != 'QApp.cpp' and 'build\x64\Debug\' == 'build\x64\Debug\').
        Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'TreeView.cpp' != 'TreeView.cpp' and 'build\x64\Debug\' == 'build\x64\Debug\').
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'TreeViewWidget.h' != 'TreeViewWidget.h' and 'build\x64\Debug\' == 'build\x64\Debug\').
    1:2>Done building target "WarnCompileDuplicatedFilename" in project "QtConsoleApplication3.vcxproj".
    1:2>Target "QtGetDefaultClCompile" in file "C:\Users\CB\AppData\Local\QtMsBuild\qt_globals.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "FixupCLCompileOptions" depends on it):
    1:2>Done building target "QtGetDefaultClCompile" in project "QtConsoleApplication3.vcxproj".
@@ -3000,20 +3003,24 @@ Build started 25/02/2020 23:25:11.
        Task "Message" skipped, due to false condition; ('$(QtDebug)' == 'true') was evaluated as ('false' == 'true').
    1:2>Done building target "QtMocOverrideCpp" in project "QtConsoleApplication3.vcxproj".
    1:2>Target "QtMoc" in file "C:\Users\CB\AppData\Local\QtMsBuild\moc\qtmoc.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "QtWorkPrepare" depends on it):
-       Skipping target "QtMoc" because all output files are up-to-date with respect to the input files.
-       Input files: E:\Project\SOFT20091-SDI\TreeView.h;QtConsoleApplication3.vcxproj
-       Output files: build\x64\Debug\\moc\moc_TreeView.cpp
+       Building target "QtMoc" completely.
+       Input file "QtConsoleApplication3.vcxproj" is newer than output file "build\x64\Debug\\moc\moc_TreeView.cpp".
+       Task "Message" skipped, due to false condition; ('$(QtDebug)' == 'true') was evaluated as ('false' == 'true').
+       Using "CreateProperty" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "CreateProperty"
+       Done executing task "CreateProperty".
    1:2>Done building target "QtMoc" in project "QtConsoleApplication3.vcxproj".
    1:2>Target "QtMoc" in file "C:\Users\CB\AppData\Local\QtMsBuild\moc\qtmoc.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "QtWorkPrepare" depends on it):
-       Skipping target "QtMoc" because all output files are up-to-date with respect to the input files.
-       Input files: E:\Project\SOFT20091-SDI\QApp.h;QtConsoleApplication3.vcxproj
-       Output files: build\x64\Debug\\moc\moc_QApp.cpp
+       Building target "QtMoc" completely.
+       Input file "QtConsoleApplication3.vcxproj" is newer than output file "build\x64\Debug\\moc\moc_QApp.cpp".
+       Task "Message" skipped, due to false condition; ('$(QtDebug)' == 'true') was evaluated as ('false' == 'true').
+       Task "CreateProperty"
+       Done executing task "CreateProperty".
    1:2>Done building target "QtMoc" in project "QtConsoleApplication3.vcxproj".
    1:2>Target "QtMoc" in file "C:\Users\CB\AppData\Local\QtMsBuild\moc\qtmoc.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "QtWorkPrepare" depends on it):
        Building target "QtMoc" completely.
        Input file "QtConsoleApplication3.vcxproj" is newer than output file "build\x64\Debug\\moc\moc_source2.cpp".
        Task "Message" skipped, due to false condition; ('$(QtDebug)' == 'true') was evaluated as ('false' == 'true').
-       Using "CreateProperty" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
        Task "CreateProperty"
        Done executing task "CreateProperty".
    1:2>Done building target "QtMoc" in project "QtConsoleApplication3.vcxproj".
@@ -3117,7 +3124,7 @@ Build started 25/02/2020 23:25:11.
    1:2>Done building target "SelectClCompile" in project "QtConsoleApplication3.vcxproj".
        Target "QtMsBuildNotFound" skipped, due to false condition; (!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')) was evaluated as (!Exists('C:\Users\CB\AppData\Local\QtMsBuild\qt.targets') or !Exists('C:\Users\CB\AppData\Local\QtMsBuild\qt.props')).
        Target "GenerateTargetFrameworkMonikerAttribute" skipped, due to false condition; ('$(GenerateTargetFrameworkAttribute)' == 'true') was evaluated as ('false' == 'true').
-       Target "ManagedIncrementalBuildPreProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('main.cpp;QApp.cpp;TreeView.cpp;build\x64\Debug\\moc\moc_TreeView.cpp;build\x64\Debug\\moc\moc_QApp.cpp;build\x64\Debug\\moc\moc_source2.cpp' != '' and 'false' == 'True').
+       Target "ManagedIncrementalBuildPreProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('ConnectionHandlerFactory.cpp;ConnectionInterface.cpp;main.cpp;QApp.cpp;TreeView.cpp;TreeViewWidget.h;build\x64\Debug\\moc\moc_TreeView.cpp;build\x64\Debug\\moc\moc_QApp.cpp;build\x64\Debug\\moc\moc_source2.cpp' != '' and 'false' == 'True').
    1:2>Target "ClCompile" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_ClCompile" depends on it):
        Task "Delete" skipped, due to false condition; ('%(ClCompile.DebugInformationFormat)' != '' and '%(ClCompile.DebugInformationFormat)' != 'None' and '%(ClCompile.DebugInformationFormat)' != 'OldStyle' and '%(ClCompile.ProgramDataBaseFileName)' != '' and !Exists(%(ClCompile.ProgramDataBaseFileName))) was evaluated as ('ProgramDatabase' != '' and 'ProgramDatabase' != 'None' and 'ProgramDatabase' != 'OldStyle' and 'build\x64\Debug\vc142.pdb' != '' and !Exists(build\x64\Debug\vc142.pdb)).
        Task "MultiToolTask" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(ClCompile.CompilerIteration)' == '' and '$(MultiProcCL)' == 'true') was evaluated as ('' != 'true' and '' == '' and 'false' == 'true').
@@ -3127,21 +3134,25 @@ Build started 25/02/2020 23:25:11.
        Task "CL"
          Using cached input dependency table built from:
          	E:\Project\SOFT20091-SDI\build\x64\Debug\QtConsol.939CEFA8.tlog\CL.read.1.tlog
-         Outputs for E:\PROJECT\SOFT20091-SDI\MAIN.CPP|E:\PROJECT\SOFT20091-SDI\QAPP.CPP|E:\PROJECT\SOFT20091-SDI\TREEVIEW.CPP:
+         Outputs for E:\PROJECT\SOFT20091-SDI\CONNECTIONHANDLERFACTORY.CPP|E:\PROJECT\SOFT20091-SDI\CONNECTIONINTERFACE.CPP|E:\PROJECT\SOFT20091-SDI\MAIN.CPP|E:\PROJECT\SOFT20091-SDI\QAPP.CPP|E:\PROJECT\SOFT20091-SDI\TREEVIEW.CPP|E:\PROJECT\SOFT20091-SDI\TREEVIEWWIDGET.H:
+         	E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\CONNECTIONHANDLERFACTORY.OBJ
+         	E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\CONNECTIONINTERFACE.OBJ
          	E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MAIN.OBJ
          	E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\QAPP.OBJ
          	E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\TREEVIEW.OBJ
-         QApp.cpp will be compiled because E:\Project\SOFT20091-SDI\QApp.cpp was modified at 25/02/2020 23:25:11.
-         Outputs for E:\PROJECT\SOFT20091-SDI\QAPP.CPP:
-         	E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\QAPP.OBJ
+         	E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\TREEVIEWWIDGET.OBJ
+         QApp.cpp will be compiled because E:\Project\SOFT20091-SDI\QApp.cpp was modified at 27/02/2020 16:51:29.
+         main.cpp will be compiled because E:\Project\SOFT20091-SDI\main.cpp was modified at 27/02/2020 16:51:29.
+         No output for E:\PROJECT\SOFT20091-SDI\MAIN.CPP|E:\PROJECT\SOFT20091-SDI\QAPP.CPP was found in the tracking log; source compilation required.
          Write Tracking Logs:
          	build\x64\Debug\QtConsol.939CEFA8.tlog\CL.write.1.tlog
          Environment Variables passed to tool:
-           VS_UNICODE_OUTPUT=1000
-         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX86\x64\CL.exe /c /Ibuild\x64\Debug\moc /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtWidgets /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtGui /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtANGLE /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtCore /I/include /I"C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\mkspecs\win32-msvc" /Ibuild\x64\Debug\moc /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /D UNICODE /D _UNICODE /D WIN32 /D _ENABLE_EXTENDED_ALIGNED_STORAGE /D WIN64 /D NDEBUG /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"build\x64\Debug\\" /Fd"build\x64\Debug\vc142.pdb" /Gd /TP /FC /errorReport:prompt QApp.cpp
+           VS_UNICODE_OUTPUT=2616
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX86\x64\CL.exe /c /Ibuild\x64\Debug\moc /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtWidgets /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtGui /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtANGLE /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtCore /I/include /I"C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\mkspecs\win32-msvc" /Ibuild\x64\Debug\moc /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /D UNICODE /D _UNICODE /D WIN32 /D _ENABLE_EXTENDED_ALIGNED_STORAGE /D WIN64 /D NDEBUG /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"build\x64\Debug\\" /Fd"build\x64\Debug\vc142.pdb" /Gd /TP /FC /errorReport:prompt QApp.cpp main.cpp
          Tracking command:
-         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i E:\Project\SOFT20091-SDI\build\x64\Debug\QtConsol.939CEFA8.tlog /r E:\PROJECT\SOFT20091-SDI\QAPP.CPP /b MSBuildConsole_CancelEvent1c0201288d1a482bb94f39deb34a0b82  /c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX86\x64\CL.exe"  /c /Ibuild\x64\Debug\moc /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtWidgets /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtGui /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtANGLE /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtCore /I/include /I"C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\mkspecs\win32-msvc" /Ibuild\x64\Debug\moc /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /D UNICODE /D _UNICODE /D WIN32 /D _ENABLE_EXTENDED_ALIGNED_STORAGE /D WIN64 /D NDEBUG /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"build\x64\Debug\\" /Fd"build\x64\Debug\vc142.pdb" /Gd /TP /FC /errorReport:prompt QApp.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i E:\Project\SOFT20091-SDI\build\x64\Debug\QtConsol.939CEFA8.tlog /r "E:\PROJECT\SOFT20091-SDI\MAIN.CPP|E:\PROJECT\SOFT20091-SDI\QAPP.CPP" /b MSBuildConsole_CancelEventdd9c606815bb4af2977b2967fc475e6d  /c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX86\x64\CL.exe"  /c /Ibuild\x64\Debug\moc /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtWidgets /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtGui /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtANGLE /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtCore /I/include /I"C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\mkspecs\win32-msvc" /Ibuild\x64\Debug\moc /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /D UNICODE /D _UNICODE /D WIN32 /D _ENABLE_EXTENDED_ALIGNED_STORAGE /D WIN64 /D NDEBUG /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"build\x64\Debug\\" /Fd"build\x64\Debug\vc142.pdb" /Gd /TP /FC /errorReport:prompt QApp.cpp main.cpp
          QApp.cpp
+         main.cpp
        Done executing task "CL".
        Task "CL"
          Read Tracking Logs:
@@ -3154,7 +3165,7 @@ Build started 25/02/2020 23:25:11.
        Done executing task "CL".
    1:2>Done building target "ClCompile" in project "QtConsoleApplication3.vcxproj".
        Target "RunSelectedFileNativeCodeAnalysis" skipped, due to false condition; ('$(RunCppAnalysis)'=='true' and '$(SelectedFiles)'!='') was evaluated as ('false'=='true' and ''!='').
-       Target "ManagedIncrementalBuildPostProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('main.cpp;QApp.cpp;TreeView.cpp;build\x64\Debug\\moc\moc_TreeView.cpp;build\x64\Debug\\moc\moc_QApp.cpp;build\x64\Debug\\moc\moc_source2.cpp' != '' and 'false' == 'True').
+       Target "ManagedIncrementalBuildPostProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('ConnectionHandlerFactory.cpp;ConnectionInterface.cpp;main.cpp;QApp.cpp;TreeView.cpp;TreeViewWidget.h;build\x64\Debug\\moc\moc_TreeView.cpp;build\x64\Debug\\moc\moc_QApp.cpp;build\x64\Debug\\moc\moc_source2.cpp' != '' and 'false' == 'True').
    1:2>Target "AfterClCompile" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_ClCompile" depends on it):
    1:2>Done building target "AfterClCompile" in project "QtConsoleApplication3.vcxproj".
    1:2>Target "_ClCompile" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_BuildCompileAction" depends on it):
@@ -3266,11 +3277,11 @@ Build started 25/02/2020 23:25:11.
          	build\x64\Debug\QtConsol.939CEFA8.tlog\link.write.1.tlog
          Read Tracking Logs:
          	build\x64\Debug\QtConsol.939CEFA8.tlog\link.read.1.tlog
-         Outputs for E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MAIN.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MOC_QAPP.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MOC_SOURCE2.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MOC_TREEVIEW.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\QAPP.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\TREEVIEW.OBJ:
+         Outputs for E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\CONNECTIONHANDLERFACTORY.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\CONNECTIONINTERFACE.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MAIN.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MOC_QAPP.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MOC_SOURCE2.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MOC_TREEVIEW.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\QAPP.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\TREEVIEW.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\TREEVIEWWIDGET.OBJ:
          	E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\QTCONSOLEAPPLICATION3.EXE
          	E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\QTCONSOLEAPPLICATION3.ILK
          	E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\QTCONSOLEAPPLICATION3.PDB
-         Inputs for E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MAIN.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MOC_QAPP.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MOC_SOURCE2.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MOC_TREEVIEW.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\QAPP.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\TREEVIEW.OBJ:
+         Inputs for E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\CONNECTIONHANDLERFACTORY.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\CONNECTIONINTERFACE.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MAIN.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MOC_QAPP.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MOC_SOURCE2.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MOC_TREEVIEW.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\QAPP.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\TREEVIEW.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\TREEVIEWWIDGET.OBJ:
          	C:\QT\QT5.14.0\5.14.0\MSVC2017_64\LIB\QT5WIDGETSD.LIB
          	C:\QT\QT5.14.0\5.14.0\MSVC2017_64\LIB\QT5GUID.LIB
          	C:\QT\QT5.14.0\5.14.0\MSVC2017_64\LIB\QT5CORED.LIB
@@ -3287,32 +3298,41 @@ Build started 25/02/2020 23:25:11.
          	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UM\X64\UUID.LIB
          	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UM\X64\ODBC32.LIB
          	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UM\X64\ODBCCP32.LIB
+         	E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\CONNECTIONHANDLERFACTORY.OBJ
+         	E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\CONNECTIONINTERFACE.OBJ
          	E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MAIN.OBJ
          	E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\QAPP.OBJ
          	E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\TREEVIEW.OBJ
+         	E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\TREEVIEWWIDGET.OBJ
          	E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MOC_TREEVIEW.OBJ
          	E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MOC_QAPP.OBJ
          	E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MOC_SOURCE2.OBJ
          	C:\WINDOWS\SYSTEM32\TZRES.DLL
          	C:\WINDOWS\GLOBALIZATION\SORTING\SORTDEFAULT.NLS
-         	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2019\COMMUNITY\VC\TOOLS\MSVC\14.23.28105\LIB\X64\MSVCPRTD.LIB
          	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2019\COMMUNITY\VC\TOOLS\MSVC\14.23.28105\LIB\X64\MSVCRTD.LIB
          	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2019\COMMUNITY\VC\TOOLS\MSVC\14.23.28105\LIB\X64\OLDNAMES.LIB
+         	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2019\COMMUNITY\VC\TOOLS\MSVC\14.23.28105\LIB\X64\MSVCPRTD.LIB
          	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2019\COMMUNITY\VC\TOOLS\MSVC\14.23.28105\LIB\X64\VCRUNTIMED.LIB
          	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UCRT\X64\UCRTD.LIB
          Source compilation required: input E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\QAPP.OBJ is newer than output E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\QTCONSOLEAPPLICATION3.PDB.
          Environment Variables passed to tool:
-           VS_UNICODE_OUTPUT=2816
-         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX86\x64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Project\SOFT20091-SDI\build\x64\Debug\\QtConsoleApplication3.exe" /NOLOGO /LIBPATH:C:\openssl\lib /LIBPATH:"C:\Utils\my_sql\mysql-5.7.25-winx64\lib" /LIBPATH:C:\Utils\postgresql\pgsql\lib C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\lib\Qt5Widgetsd.lib C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\lib\Qt5Guid.lib C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\lib\Qt5Cored.lib C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\lib\qtmaind.lib shell32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Project\SOFT20091-SDI\build\x64\Debug\QtConsoleApplication3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Project\SOFT20091-SDI\build\x64\Debug\QtConsoleApplication3.lib" /MACHINE:X64 build\x64\Debug\main.obj
+           VS_UNICODE_OUTPUT=2616
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX86\x64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Project\SOFT20091-SDI\build\x64\Debug\\QtConsoleApplication3.exe" /NOLOGO /LIBPATH:C:\openssl\lib /LIBPATH:"C:\Utils\my_sql\mysql-5.7.25-winx64\lib" /LIBPATH:C:\Utils\postgresql\pgsql\lib C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\lib\Qt5Widgetsd.lib C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\lib\Qt5Guid.lib C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\lib\Qt5Cored.lib C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\lib\qtmaind.lib shell32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Project\SOFT20091-SDI\build\x64\Debug\QtConsoleApplication3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Project\SOFT20091-SDI\build\x64\Debug\QtConsoleApplication3.lib" /MACHINE:X64 build\x64\Debug\ConnectionHandlerFactory.obj
+         build\x64\Debug\ConnectionInterface.obj
+         build\x64\Debug\main.obj
          build\x64\Debug\QApp.obj
          build\x64\Debug\TreeView.obj
+         build\x64\Debug\TreeViewWidget.obj
          build\x64\Debug\moc_TreeView.obj
          build\x64\Debug\moc_QApp.obj
          build\x64\Debug\moc_source2.obj
          Tracking command:
-         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i E:\Project\SOFT20091-SDI\build\x64\Debug\QtConsol.939CEFA8.tlog /r "E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MAIN.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MOC_QAPP.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MOC_SOURCE2.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MOC_TREEVIEW.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\QAPP.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\TREEVIEW.OBJ" /b MSBuildConsole_CancelEventc5aeb4f2f1b741e2aadb34e8dc93a091  /c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX86\x64\link.exe"  /ERRORREPORT:PROMPT /OUT:"E:\Project\SOFT20091-SDI\build\x64\Debug\\QtConsoleApplication3.exe" /NOLOGO /LIBPATH:C:\openssl\lib /LIBPATH:"C:\Utils\my_sql\mysql-5.7.25-winx64\lib" /LIBPATH:C:\Utils\postgresql\pgsql\lib C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\lib\Qt5Widgetsd.lib C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\lib\Qt5Guid.lib C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\lib\Qt5Cored.lib C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\lib\qtmaind.lib shell32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Project\SOFT20091-SDI\build\x64\Debug\QtConsoleApplication3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Project\SOFT20091-SDI\build\x64\Debug\QtConsoleApplication3.lib" /MACHINE:X64 build\x64\Debug\main.obj
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i E:\Project\SOFT20091-SDI\build\x64\Debug\QtConsol.939CEFA8.tlog /r "E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\CONNECTIONHANDLERFACTORY.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\CONNECTIONINTERFACE.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MAIN.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MOC_QAPP.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MOC_SOURCE2.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MOC_TREEVIEW.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\QAPP.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\TREEVIEW.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\TREEVIEWWIDGET.OBJ" /b MSBuildConsole_CancelEventb308d36c09794ecd83162720c3bc05b4  /c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX86\x64\link.exe"  /ERRORREPORT:PROMPT /OUT:"E:\Project\SOFT20091-SDI\build\x64\Debug\\QtConsoleApplication3.exe" /NOLOGO /LIBPATH:C:\openssl\lib /LIBPATH:"C:\Utils\my_sql\mysql-5.7.25-winx64\lib" /LIBPATH:C:\Utils\postgresql\pgsql\lib C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\lib\Qt5Widgetsd.lib C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\lib\Qt5Guid.lib C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\lib\Qt5Cored.lib C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\lib\qtmaind.lib shell32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Project\SOFT20091-SDI\build\x64\Debug\QtConsoleApplication3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Project\SOFT20091-SDI\build\x64\Debug\QtConsoleApplication3.lib" /MACHINE:X64 build\x64\Debug\ConnectionHandlerFactory.obj
+         build\x64\Debug\ConnectionInterface.obj
+         build\x64\Debug\main.obj
          build\x64\Debug\QApp.obj
          build\x64\Debug\TreeView.obj
+         build\x64\Debug\TreeViewWidget.obj
          build\x64\Debug\moc_TreeView.obj
          build\x64\Debug\moc_QApp.obj
          build\x64\Debug\moc_source2.obj
@@ -3471,4 +3491,4 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.72
+Time Elapsed 00:00:01.66

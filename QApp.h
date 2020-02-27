@@ -5,7 +5,8 @@
 #include <QPushButton>
 #include <QMainWindow>
 #include <qurl.h>
-class QAPP : public QMainWindow
+#include "TreeView.h"
+class QAPP : public QMainWindow//, public TreeView
 {
 	Q_OBJECT
 public:
@@ -13,11 +14,11 @@ public:
 	void Setlocation();
 	QUrl Url;
 signals:
-	void OpeningDir();
+	
 
-	private
-slots:
-	void on_opened_dir(/*QUrl OpenThis*/);
+private slots:
+	//void on_opened_dir(/*QUrl OpenThis*/);
+	void OpeningDir();
 
 private:
 	

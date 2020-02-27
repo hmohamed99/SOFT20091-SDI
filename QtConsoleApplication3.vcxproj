@@ -17,9 +17,12 @@
     <ClInclude Include="src\QAppWidget.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ConnectionHandlerFactory.cpp" />
+    <ClCompile Include="ConnectionInterface.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="QApp.cpp" />
     <ClCompile Include="TreeView.cpp" />
+    <ClCompile Include="TreeViewWidget.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{939CEFA8-A703-4E52-B447-B8D00E16C3D0}</ProjectGuid>

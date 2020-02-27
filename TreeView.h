@@ -14,7 +14,7 @@ Open Pre-Configured Img Loc/Url, initialise as a basic treeView Array Could use 
 	very bad link remove later: https://old.reddit.com/r/programming/comments/25xpre/bjarne_stroustrup_why_you_should_avoid_linked/
 	https://www.codeofhonor.com/blog/avoiding-game-crashes-related-to-linked-lists
 **/
-class TreeView : public QTreeView
+class TreeView : public QTreeView //, public QAPP
 {
 	Q_OBJECT
 public:
@@ -22,11 +22,17 @@ public:
 	/*virtual*/ void Items(/*QAbstractItemModel* model*//*, this*/);
 	//void DropEvent(QDropEvent* event);
 	QString Path2 = QDir::currentPath();
+	QFileSystemModel* FileSystem = nullptr;
+	QTreeView* FileTree = nullptr;
+	QPushButton* Add = nullptr;
 signals:
-
+	void on_opened_state();
+	
+//public slots:
+	
 private slots:
 
-	//void on_opened_state();
+	void OpeningDir();
 	//void sort_asc();
 	//void sort_desc();
 	//void last_modif();
@@ -36,9 +42,7 @@ private:
 	/** could use buttons if time is an issue **/
 	//QList* SortOptions = nullptr; /** Why ptrs? **/
 	
-	QFileSystemModel* FileSystem = nullptr;
-	QTreeView* FileTree = nullptr;
-	QPushButton* Add = nullptr;
+	
 	//QString MainFolder;// = "E:\Project\Misc\QtConsoleApplication3\imgs";
 	int ItmCount = NULL;
 	//QWidget* QW = nullptr;
