@@ -1,24 +1,21 @@
 #include <Qapplication.h>
 #include <QPushButton>
-//#include "source2.h"
+
 #include <iostream>
 #include <QtCore>
 #include <qdesktopservices.h>
 #include <qobject.h>
 #include "QApp.h"
-#include "TreeView.h"
 
 
-int main(int argc, char** argv) 
+
+int main(int argc, char** argv) //** Main function from which all other Interface constructors and objects are called **//
 {
-	QApplication xapps(argc, argv);
-	//QUrl OpenThis = "file:///C:/Documents and Settings/All Users/";
+	QApplication xapps(argc, argv); 
 	
-	QString Path = QDir::currentPath();
-	QAPP QA; //** This somehow Works **//
-	//QA.Setlocation(); /** seems to work as a quick hack to acces member functions from main **/
-	TreeView TV;// (/*Path*/);// ("E:\Project\Misc\QtConsoleApplication3\imgs");
-	
+	QAPP QA; 
+	QA.Setlocation(); 
+	QA.SetupView(); /**Instantiate the child QTreeView widget **/
 
-	return xapps.exec(); //** This somehow Works **//
+	return xapps.exec(); 
 }

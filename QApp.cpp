@@ -1,59 +1,94 @@
 #include <Qapplication.h>
 #include <QPushButton>
-//#include "source2.h"
+
 #include <iostream>
 #include <QtCore>
 #include <qdesktopservices.h>
 #include <qobject.h>
+#include <qsplitter>
+
 #include "QApp.h"
-#include "TreeView.h"
 
-//#include "source2.h"
-/**Stolen from here:/
-/**https://sourcegraph.com/github.com/MultiMC/MultiMC5@6cb956b45b97ba685d9cef96484747544615e724/-/blob/application/InstanceWindow.cpp#L72
-	*https://www.youtube.com/watch?v=qEGRYYx0RBw
-	*https://www.youtube.com/watch?v=FMs4-oedxKo
-	*https://evileg.com/en/post/87/
-	**/
-
-QAPP::QAPP(QWidget* parent) : QMainWindow(parent)/*, QApplication(argc, argv)*/ //Do not fully understand this unfortuately: seems to be very common with many Applications based on the QT Framework
+QAPP::QAPP(/*QWidget*/ QSplitter* parent) : QMainWindow(parent)/*, QApplication(argc, argv)*/ //Do not fully understand this unfortuately: seems to be very common with many Applications based on the QT Framework
 {
 	AddImgs = new QPushButton(this); /** Places button within the "Parent" QMaiNWindow /**Must include this to ensure Button is placed corerctly within the QWidget/QmaiNWindow and not as a seperate QObject!**/
 	AddImgs->setGeometry(50, 50, 300, 30);
+	
 	//TreeView TV;
-	/**Must have QBP as pointers otehrwise connect is not acceisbel for some reason**/
+	/**Must have QObjects as pointers otherwise connection methods cannot be accessed correctly**/
 	{
 		AddImgs->setText("Open");
-		/** https://wiki.qt.io/How_to_Use_QPushButton **/
-		/** this somehow functions without a dedicated Signal Function **/
-		//connect(AddImgs, &QPushButton::clicked, this, &TreeView::on_opened_state);
-		connect(AddImgs, SIGNAL(clicked()), this, SLOT(OpeningDir()));
-		/** set set default state of QBP to TRUE so the next Signal triggers when the QBP is toggled to false again isneta dof just checking for true)**/
+		connect(AddImgs, SIGNAL(clicked()), this, SLOT(OpenedDir()));
+		
 
 	}
-		/*QW->*/setMinimumSize(400, 800);
-	/*QW->*/show();
+		setMinimumSize(400, 800);
+	show();
 
 }
 
 
-void QAPP::OpeningDir(/*QUrl OpenThis*/)
+
+/** Experiment to setup TV As a child widget as a workaround/bypass for the connection problem where Signals/Slots cannot be made between different classes of QObject**/
+/** Slots may not be able to call other Objects **/
+/** this should be its own class and not as a member function of the main QAPP class: but allows full Connection functionality to be achieved in this way **/
+void QAPP::SetupView()
 {
-	//QAPP QP;
-	QDesktopServices QD; //** very bad practice Might case a memory leak?**/
-
-	///** Could be changed to instead initialise a new teeView widget for the file browser) **/
-	QD.openUrl(Url);
-	AddImgs->setText("Close");
-	//QDebug::"Attempting to open Dir";
+	FileTree = new QTreeView();
+	/** use pointer trick with push buttons to allow Widgets to be embedded: **/
 	
-	printf("Attempting to open Dir");
-	
-	TreeView TV; /** cant seem to call another constructor within a memeber function of a seperate class **/
-	/**if !init then Print Moudle/Widget Fail **/
+	Add = new QPushButton(FileTree); //* Allows the QPushButton to be added to the TreeView even though it technically belongs to the Main QAPP header *//
 
+	FileSystem = new QFileSystemModel;// (FileSystem);
+	FileSystem->setRootPath(Path2);
+	//FileTree = new QTreeView(this);
+	
+	Add->setGeometry(10, 10, 380, 50); /** very imprecise positioning **/
+	FileTree->setGeometry(30, 70, 540, 300); /** very imprecise positioning **/
+	//QTreeView(parent)
+	{
+		FileTree->setAllColumnsShowFocus(true);
+		FileTree->setAutoExpandDelay(1);
+		FileTree->setSortingEnabled(true);
+		FileTree->setHeaderHidden(false);
+		FileTree->columnWidth(10);
+		FileTree->setModel(FileSystem);
+		FileTree->setColumnHidden(100, false);
+		//FileTree->setRootIsDecorated(true); //* Redundant: Root is set as decorated by default *//
+		FileTree->setSortingEnabled(true);
+		FileTree->setExpandsOnDoubleClick(true);
+		FileTree->setAnimated(true);
+		//FileTree->adjustSize();
+		
+	}
+	connect(Add, SIGNAL(clicked()), this, SLOT(ClosedDir()));
+
+	FileTree->setModel(FileSystem);
+	FileTree->setRootIndex(FileSystem->index(Path2));
+	FileTree->setRootIsDecorated(FileSystem);
+	setMinimumSize(600, 400);
+
+	
 }
 
+
+void QAPP::OpenedDir() 
+{
+	FileTree->show();
+	FileTree->expandAll(); //* TreeView will not update its state unless the updates are done within a slot? *//
+	AddImgs->setText("Opened");
+	Add->setText("Close");
+	//hide();
+}
+
+void QAPP::ClosedDir()
+{
+	FileTree->hide();
+	//~TreeView();
+	
+	AddImgs->setText("Open");
+	//show();
+}
 
 void QAPP::Setlocation() /**called automatically by the constructor **/
 {

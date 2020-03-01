@@ -1,0 +1,99 @@
+\hypertarget{class_q_a_p_p}{}\doxysection{Q\+A\+PP Class Reference}
+\label{class_q_a_p_p}\index{QAPP@{QAPP}}
+Inheritance diagram for Q\+A\+PP\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_q_a_p_p}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_q_a_p_p_a59ea02a689093cf6aad0779faf799ec9}\label{class_q_a_p_p_a59ea02a689093cf6aad0779faf799ec9}} 
+void {\bfseries Opened\+Dir} ()
+\item 
+\mbox{\Hypertarget{class_q_a_p_p_ac7649c323ee6f87540b1ca570f472ac5}\label{class_q_a_p_p_ac7649c323ee6f87540b1ca570f472ac5}} 
+void {\bfseries Closed\+Dir} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_q_a_p_p_acbba38f4b19df9229fbf07cbaa3e94d1}\label{class_q_a_p_p_acbba38f4b19df9229fbf07cbaa3e94d1}} 
+void {\bfseries on\+\_\+opened\+\_\+state} (const bool a)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_q_a_p_p_ad2eaa51d87cba93f6ce84e858cb6516b}{Q\+A\+PP}} (Q\+Splitter $\ast$parent=0)
+\item 
+void \mbox{\hyperlink{class_q_a_p_p_a3050508ea954efb4900fdec6f2cc6aec}{Setlocation}} ()
+\item 
+void \mbox{\hyperlink{class_q_a_p_p_aacbf91396069031e5b1349b941b64ebe}{Opening\+Dir}} ()
+\item 
+void \mbox{\hyperlink{class_q_a_p_p_ab6f1e5681f54cc0328ccd8aed2ab346a}{Setup\+View}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_q_a_p_p_a6064a6c4c19673ea3f41b318ad473a1e}\label{class_q_a_p_p_a6064a6c4c19673ea3f41b318ad473a1e}} 
+Q\+Url {\bfseries Url}
+\item 
+\mbox{\Hypertarget{class_q_a_p_p_a16644de6f16b70dbcc4e6c6b5bcfb5d5}\label{class_q_a_p_p_a16644de6f16b70dbcc4e6c6b5bcfb5d5}} 
+Q\+String {\bfseries Path2} = Q\+Dir\+::current\+Path()
+\item 
+\mbox{\Hypertarget{class_q_a_p_p_a17928529c20dc80b8e6ce22fd6aba41b}\label{class_q_a_p_p_a17928529c20dc80b8e6ce22fd6aba41b}} 
+Q\+Push\+Button $\ast$ {\bfseries Add\+Imgs} = nullptr
+\item 
+\mbox{\Hypertarget{class_q_a_p_p_acf1de4d73f99ede7d89cfe586394be4e}\label{class_q_a_p_p_acf1de4d73f99ede7d89cfe586394be4e}} 
+Q\+Push\+Button $\ast$ {\bfseries Add} = nullptr
+\item 
+\mbox{\Hypertarget{class_q_a_p_p_aac51ec4b062d333cde67403201b1fe43}\label{class_q_a_p_p_aac51ec4b062d333cde67403201b1fe43}} 
+Q\+Push\+Button $\ast$ {\bfseries Close} = nullptr
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_q_a_p_p_ad2eaa51d87cba93f6ce84e858cb6516b}\label{class_q_a_p_p_ad2eaa51d87cba93f6ce84e858cb6516b}} 
+\index{QAPP@{QAPP}!QAPP@{QAPP}}
+\index{QAPP@{QAPP}!QAPP@{QAPP}}
+\doxysubsubsection{\texorpdfstring{QAPP()}{QAPP()}}
+{\footnotesize\ttfamily Q\+A\+P\+P\+::\+Q\+A\+PP (\begin{DoxyParamCaption}\item[{Q\+Splitter $\ast$}]{parent = {\ttfamily 0} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+Stolen from here\+:/ /$\ast$$\ast$https\+://sourcegraph.com/github.\+com/\+Multi\+M\+C/\+Multi\+M\+C5@6cb956b45b97ba685d9cef96484747544615e724/-\//blob/application/\+Instance\+Window.\+cpp\#\+L72 \href{https://www.youtube.com/watch?v=qEGRYYx0RBw}{\texttt{ https\+://www.\+youtube.\+com/watch?v=q\+E\+G\+R\+Y\+Yx0\+R\+Bw}} \href{https://www.youtube.com/watch?v=FMs4-oedxKo}{\texttt{ https\+://www.\+youtube.\+com/watch?v=\+F\+Ms4-\/oedx\+Ko}} \href{https://evileg.com/en/post/87/}{\texttt{ https\+://evileg.\+com/en/post/87/}} Places button within the \char`\"{}\+Parent\char`\"{} Q\+Mai\+N\+Window /$\ast$$\ast$\+Must include this to ensure Button is placed corerctly within the Q\+Widget/\+Qmai\+N\+Window and not as a seperate Q\+Object!
+
+Must have Q\+BP as pointers otehrwise connect is not acceisbel for some reason
+
+\href{https://wiki.qt.io/How_to_Use_QPushButton}{\texttt{ https\+://wiki.\+qt.\+io/\+How\+\_\+to\+\_\+\+Use\+\_\+\+Q\+Push\+Button}}
+
+this somehow functions without a dedicated Signal Function
+
+set set default state of Q\+BP to T\+R\+UE so the next Signal triggers when the Q\+BP is toggled to false again isneta dof just checking for true)
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_q_a_p_p_aacbf91396069031e5b1349b941b64ebe}\label{class_q_a_p_p_aacbf91396069031e5b1349b941b64ebe}} 
+\index{QAPP@{QAPP}!OpeningDir@{OpeningDir}}
+\index{OpeningDir@{OpeningDir}!QAPP@{QAPP}}
+\doxysubsubsection{\texorpdfstring{OpeningDir()}{OpeningDir()}}
+{\footnotesize\ttfamily void Q\+A\+P\+P\+::\+Opening\+Dir (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+if !init then Print Moudle/\+Widget Fail\mbox{\Hypertarget{class_q_a_p_p_a3050508ea954efb4900fdec6f2cc6aec}\label{class_q_a_p_p_a3050508ea954efb4900fdec6f2cc6aec}} 
+\index{QAPP@{QAPP}!Setlocation@{Setlocation}}
+\index{Setlocation@{Setlocation}!QAPP@{QAPP}}
+\doxysubsubsection{\texorpdfstring{Setlocation()}{Setlocation()}}
+{\footnotesize\ttfamily void Q\+A\+P\+P\+::\+Setlocation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+called automatically by the constructor \mbox{\Hypertarget{class_q_a_p_p_ab6f1e5681f54cc0328ccd8aed2ab346a}\label{class_q_a_p_p_ab6f1e5681f54cc0328ccd8aed2ab346a}} 
+\index{QAPP@{QAPP}!SetupView@{SetupView}}
+\index{SetupView@{SetupView}!QAPP@{QAPP}}
+\doxysubsubsection{\texorpdfstring{SetupView()}{SetupView()}}
+{\footnotesize\ttfamily void Q\+A\+P\+P\+::\+Setup\+View (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+use pointer trick with Wpush buttons to allow Widgets to be embedded\+: Q\+Push\+Button$\ast$ button = new Q\+Push\+Button(\char`\"{}\+Test!\char`\"{}, \&widget); // \textbackslash{}\+Initialise button objects and adds then to the Widget object with a pointer Q\+Push\+Button button2(button); Experiment to setup TV As a child widget as a workaround/bypass for the connection problem between Objects Within different Q\+Objects Slots may not be able to call other Objects this is extremely ugly code as this should be its own class and not as a member function of the main \mbox{\hyperlink{class_q_a_p_p}{Q\+A\+PP}} class\+: but this a ugly hack whic allows full Connection functionality to be acheived in this way very imprecise positioning
+
+very imprecise positioning
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Q\+App.\+h\item 
+build/x64/\+Debug/moc/moc\+\_\+\+Q\+App.\+cpp\item 
+Q\+App.\+cpp\end{DoxyCompactItemize}
