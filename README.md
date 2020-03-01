@@ -1,6 +1,7 @@
 # SOFT20091-SDI
 
 ___Built on QT Framework V5.14.1 so may need to install v5.12 or later to build properly___
+
 ___The Project may run into linking errors and not build correctly in Visual Studio without the QT VS Tools addon___
 
 # todo 
