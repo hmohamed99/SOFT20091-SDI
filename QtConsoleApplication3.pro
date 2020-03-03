@@ -4,12 +4,12 @@
 
 TEMPLATE = app
 TARGET = QtConsoleApplication3
-DESTDIR = ./build/x64/Debug
-CONFIG += debug console
+DESTDIR = ./build/x64/Release
+CONFIG += release debug console
 LIBS += -L"."
 DEPENDPATH += .
 MOC_DIR += ./GeneratedFiles/$(ConfigurationName)
-OBJECTS_DIR += debug
+OBJECTS_DIR += release debug
 UI_DIR += ./GeneratedFiles
 RCC_DIR += ./GeneratedFiles
 include(QtConsoleApplication3.pri)

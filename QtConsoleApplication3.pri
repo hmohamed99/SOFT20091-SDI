@@ -7,8 +7,7 @@
 message("You are running qmake on a generated .pro file. This may not work!")
 
 
-HEADERS += ./src/QApp.h \
-    ./src/source2.h \
+HEADERS += ./QApp.h \
     ./src/QAppWidget.h
-SOURCES += ./src/main.cpp \
-    ./src/QApp.cpp
+SOURCES += ./main.cpp \
+    ./QApp.cpp

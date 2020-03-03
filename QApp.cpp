@@ -44,7 +44,7 @@ void QAPP::SetupView()
 	//FileTree = new QTreeView(this);
 	
 	Add->setGeometry(10, 10, 380, 50); /** very imprecise positioning **/
-	FileTree->setGeometry(30, 70, 540, 300); /** very imprecise positioning **/
+	FileTree->setGeometry(30, 70, 740, 700); /** very imprecise positioning **/
 	//QTreeView(parent)
 	{
 		FileTree->setAllColumnsShowFocus(true);
@@ -57,12 +57,13 @@ void QAPP::SetupView()
 		//FileTree->setRootIsDecorated(true); //* Redundant: Root is set as decorated by default *//
 		FileTree->setSortingEnabled(true);
 		FileTree->setExpandsOnDoubleClick(true);
-		FileTree->setAnimated(true);
+		FileTree->itemsExpandable();
+		//FileTree->setAnimated(true);
 		//FileTree->adjustSize();
 		
 	}
 	connect(Add, SIGNAL(clicked()), this, SLOT(ClosedDir()));
-
+	//connect(keyPressEvent, SIGNAL(key(), this, SLOT(TestSlot()));
 	FileTree->setModel(FileSystem);
 	FileTree->setRootIndex(FileSystem->index(Path2));
 	FileTree->setRootIsDecorated(FileSystem);
@@ -75,7 +76,10 @@ void QAPP::SetupView()
 void QAPP::OpenedDir() 
 {
 	FileTree->show();
-	FileTree->expandAll(); //* TreeView will not update its state unless the updates are done within a slot? *//
+	/* Don't actually need this slot here: Expandable can be set with itemsExpandable()*/
+	/* Slots are only needed for carrying out actions/events with another Slot/Signal/ or other similar Event has occurred or if the Widget is already Initialised */
+	//FileTree->Expandall(); //* TreeView will not update its state unless the updates are done within a slot? *//
+	//* Expanding TreeView seems to be CPU intensive *//
 	AddImgs->setText("Opened");
 	Add->setText("Close");
 	//hide();
@@ -89,7 +93,10 @@ void QAPP::ClosedDir()
 	AddImgs->setText("Open");
 	//show();
 }
-
+void QAPP::TestSlot()
+{
+	AddImgs->setText("Clicked Item");
+}
 void QAPP::Setlocation() /**called automatically by the constructor **/
 {
 	/*AddImgs->setText("Open");

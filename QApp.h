@@ -39,6 +39,7 @@ private slots:
 	/*void SetupView();*/
 	void OpenedDir();
 	void ClosedDir();
+	void TestSlot();
 private:
 	//QDesktopServices QD;
 	QFileSystemModel* FileSystem = nullptr;
