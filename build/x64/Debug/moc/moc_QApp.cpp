@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_QAPP_t {
-    QByteArrayData data[7];
-    char stringdata0[53];
+    QByteArrayData data[8];
+    char stringdata0[63];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -38,11 +38,12 @@ QT_MOC_LITERAL(2, 21, 0), // ""
 QT_MOC_LITERAL(3, 22, 1), // "a"
 QT_MOC_LITERAL(4, 24, 9), // "OpenedDir"
 QT_MOC_LITERAL(5, 34, 9), // "ClosedDir"
-QT_MOC_LITERAL(6, 44, 8) // "TestSlot"
+QT_MOC_LITERAL(6, 44, 8), // "TestSlot"
+QT_MOC_LITERAL(7, 53, 9) // "CloseMain"
 
     },
     "QAPP\0on_opened_state\0\0a\0OpenedDir\0"
-    "ClosedDir\0TestSlot"
+    "ClosedDir\0TestSlot\0CloseMain"
 };
 #undef QT_MOC_LITERAL
 
@@ -52,7 +53,7 @@ static const uint qt_meta_data_QAPP[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-       4,   14, // methods
+       5,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -60,17 +61,19 @@ static const uint qt_meta_data_QAPP[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    1,   34,    2, 0x06 /* Public */,
+       1,    1,   39,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       4,    0,   37,    2, 0x08 /* Private */,
-       5,    0,   38,    2, 0x08 /* Private */,
-       6,    0,   39,    2, 0x08 /* Private */,
+       4,    0,   42,    2, 0x08 /* Private */,
+       5,    0,   43,    2, 0x08 /* Private */,
+       6,    0,   44,    2, 0x08 /* Private */,
+       7,    0,   45,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::Bool,    3,
 
  // slots: parameters
+    QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -88,6 +91,7 @@ void QAPP::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void *
         case 1: _t->OpenedDir(); break;
         case 2: _t->ClosedDir(); break;
         case 3: _t->TestSlot(); break;
+        case 4: _t->CloseMain(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -103,7 +107,7 @@ void QAPP::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void *
 }
 
 QT_INIT_METAOBJECT const QMetaObject QAPP::staticMetaObject = { {
-    QMetaObject::SuperData::link<QMainWindow::staticMetaObject>(),
+    QMetaObject::SuperData::link<QSplitter::staticMetaObject>(),
     qt_meta_stringdata_QAPP.data,
     qt_meta_data_QAPP,
     qt_static_metacall,
@@ -122,22 +126,22 @@ void *QAPP::qt_metacast(const char *_clname)
     if (!_clname) return nullptr;
     if (!strcmp(_clname, qt_meta_stringdata_QAPP.stringdata0))
         return static_cast<void*>(this);
-    return QMainWindow::qt_metacast(_clname);
+    return QSplitter::qt_metacast(_clname);
 }
 
 int QAPP::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
-    _id = QMainWindow::qt_metacall(_c, _id, _a);
+    _id = QSplitter::qt_metacall(_c, _id, _a);
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 4)
+        if (_id < 5)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 4;
+        _id -= 5;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 4)
+        if (_id < 5)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 4;
+        _id -= 5;
     }
     return _id;
 }
