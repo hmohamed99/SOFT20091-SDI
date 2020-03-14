@@ -6,20 +6,27 @@
 #include <qdesktopservices.h>
 #include <qobject.h>
 #include <qsplitter>
+#include <QMouseEvent>
 
 #include "QApp.h"
 
 QAPP::QAPP(QWidget* parent) : QSplitter(parent)/*, QApplication(argc, argv)*/ //Do not fully understand this unfortuately: seems to be very common with many Applications based on the QT Framework
 {
-	AddImgs = new QPushButton(this); /** Places button within the "Parent" QMaiNWindow /**Must include this to ensure Button is placed corerctly within the QWidget/QmaiNWindow and not as a seperate QObject!**/
+	TestWidget = new QWidget(this);
+	TestWidget->setMinimumSize(500, 500);
+	AddImgs = new QPushButton(TestWidget); /** Places button within the "Parent" QMaiNWindow /**Must include this to ensure Button is placed corerctly within the QWidget/QmaiNWindow and not as a seperate QObject!**/
 	//AddImgs->setGeometry(50, 50, 300, 30);
-	Exit = new QPushButton(this);
-	AddImgs->setFixedSize(300, 30);
+	//QDesktopServices QD;
+	//QD = new QDesktopServices();
+	//QM = new QPoint();
+	Exit = new QPushButton(TestWidget);
+	AddImgs->setGeometry(50, 50, 300, 30);
+	//AddImgs->setFixedSize(300, 30);
 	//AddImgs->setMaximumSize(300, 30);
 	//Exit->setMaximumSize(300, 30);
 	
-	//Exit->setGeometry(50, 100, 300, 30);
-	Exit->setFixedSize(300, 30);
+	Exit->setGeometry(50, 100, 300, 30);
+	//Exit->setFixedSize(300, 30);
 	//Exit->setLocale
 	
 	//TreeView TV;
@@ -90,7 +97,9 @@ void QAPP::SetupView()
 
 	//*Get index of Itemmodel to return Filename
 	//*Newer suntax of Pointers required to access interited slots from QAbstractItemModel
-	connect(FileTree, &QTreeView::doubleClicked, this, &QAPP::TestSlot); //*https://doc.qt.io/qt-5/qabstractitemview.html#mouseDoubleClickEvent
+	//* Don't need to pass parameters to the called signal/slot with this specila pointer.reference method
+	connect(FileTree, &QTreeView::doubleClicked, /*&QAPP::FileTree->indexAt*/this, &QAPP::Filehandler/*(QAPP::FileSystem->fileInfo)*/); //*https://doc.qt.io/qt-5/qabstractitemview.html#mouseDoubleClickEvent
+	//connect(QAPP::FileTree, SIGNAL(doubleClicked(QModelIndex)), this, SIGNAL(TestSlot));///*(QAPP::FileSystem->fileInfo)*/); //*https://doc.qt.io/qt-5/qabstractitemview.html#mouseDoubleClickEvent
 	//connect(FileTree, &QTreeView::event., this, SLOT(ClosedDir()));
 	//connect(keyPressEvent, SIGNAL(key(), this, SLOT(TestSlot()));
 	FileTree->setModel(FileSystem);
@@ -148,11 +157,42 @@ void QAPP::ClosedDir()
 	//show();
 	/*QAPP::close();*/
 }
-void QAPP::TestSlot()
+void QAPP::Filehandler(QModelIndex Index)
 {
-	AddImgs->setText("Clicked Item");
-	//*qDebug << QAbstractItemView::currentIndex;
-	FileTree->currentIndex;
+	//AddImgs->setText("Clicked Item");
+	//QMouseEvent::pos;
+	//QString V = Index.
+	//QString V = Index.row();
+	//* hacky method to get the Current Index passed to this specific slot where the Selected File now becomes the corrisponding Index of the InputImages QList *//
+	/* 
+	thisis considered Hacky ATM due to a bug this approach introduces wher the QList 
+	will Desync with the TreeView if sorted: this could be fixed by either sorting the QList 
+	when this occurs or to have the QAbtractItemModel reflect the QLists current state 
+	*/
+	QString V = InputImages.at(Index.row()+2); //* Bad link again: https://stackoverflow.com/questions/40285104/qt5-get-value-of-item-clicked-in-a-listview *//
+	//QUrl V = InputImages.at(Index.row()); //* Bad link again: https://stackoverflow.com/questions/40285104/qt5-get-value-of-item-clicked-in-a-listview *//
+										 //*https://doc.qt.io/qt-5/qmodelindex.html#row*//
+	//int V = Index.row();
+	//QDesktopServices QD;
+	qDebug() << V;
+	//Imgs.open(V, QIODevice::WriteOnly);
+	QImage QI(V);
+	qDebug() << QI.size();
+	qDebug() << QI.format();
+	qDebug() << QI.bits();
+	//qDebug() << QI.byteCount() << "Bytes";
+	qDebug() << QI.sizeInBytes() << "Bytes"; //* https://doc.qt.io/qt-5/qimage.html#sizeInBytes *//
+	AddImgs->setText(V);
+	//QI.load(V);
+	//QD.openUrl(V);
+	//Imgs.fileName();
+	//QM ->QMouseEvent::pos;
+		//qDebug << QAbstractItemView::currentIndex;
+		//QString a = FileTree->currentIndex();
+		//FileHandler.open(FileSystem->sibling(1, 1));
+		//int a = QM.x();
+	//FileHandler.open(FileSystem->fetchMore(FileTree->currentIndex()));
+	//qDebug << FileTree->SelectRows;
 }
 void QAPP::Setlocation() /**called automatically by the constructor **/
 {
@@ -167,7 +207,8 @@ void QAPP::CloseMain()
 		QAPP::close();
 	else
 	{
-		printf("File Dialog is Open!");
+		//printf("File Dialog is Open!");
+		qWarning() << "File Dialog is Open!";
 		Exit->setText("Wait for close");
 	}
 

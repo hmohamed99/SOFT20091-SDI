@@ -1169,7 +1169,7 @@
            ") at C:\Users\CB\AppData\Local\QtMsBuild\qml\qtqml.targets (51,5)
        Property reassignment: $(QtBuildTargets)="QtRepc;QtRcc;QtMoc;;QtQmlCache" (previous value: "QtRcc;QtMoc;;QtQmlCache") at C:\Users\CB\AppData\Local\QtMsBuild\repc\qtrepc.targets (51,5)
        Property reassignment: $(QtBuildTargets)="QtUic;QtRepc;QtRcc;QtMoc;;QtQmlCache" (previous value: "QtRepc;QtRcc;QtMoc;;QtQmlCache") at C:\Users\CB\AppData\Local\QtMsBuild\uic\qtuic.targets (51,5)
-       Property reassignment: $(MSBuildAllProjects)="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.Default.props;;E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.targets;E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj.user;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Xaml.targets;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\NuGet\16.0\Microsoft.NuGet.targets" (previous value: ";E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.targets;E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj.user;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Xaml.targets;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\NuGet\16.0\Microsoft.NuGet.targets") at 
+       Property reassignment: $(MSBuildAllProjects)="E:\Project\SOFT20091-SDI\build\x64\Debug\qmake\qtvars_x64_Debug.props;;E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.targets;E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj.user;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Xaml.targets;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\NuGet\16.0\Microsoft.NuGet.targets" (previous value: ";E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.targets;E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj.user;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Xaml.targets;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\NuGet\16.0\Microsoft.NuGet.targets") at 
        Overriding target "GetFrameworkPaths" in project "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" with target "GetFrameworkPaths" from project "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets".
        Overriding target "SatelliteDllsProjectOutputGroup" in project "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" with target "SatelliteDllsProjectOutputGroup" from project "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets".
        Overriding target "GenerateTargetFrameworkMonikerAttribute" in project "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" with target "GenerateTargetFrameworkMonikerAttribute" from project "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets".
@@ -1211,7 +1211,7 @@
        Overriding target "GetNativeManifest" in project "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" with target "GetNativeManifest" from project "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets".
        Overriding target "GetTargetPathWithTargetPlatformMoniker" in project "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" with target "GetTargetPathWithTargetPlatformMoniker" from project "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.DesignTime.targets".
        The target "CoreCompile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VisualStudio\v16.0\CodeAnalysis\Microsoft.CodeAnalysis.targets (57,12)" does not exist in the project, and will be ignored.
-Build started 11/03/2020 23:04:07.
+Build started 14/03/2020 21:22:57.
 Logging verbosity is set to: Detailed.     1>Project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" on node 2 (Build target(s)).
      1>Building with tools version "Current".
        Project file contains ToolsVersion="16.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="Current". For more information, please see http://go.microsoft.com/fwlink/?LinkId=293424.
@@ -1392,7 +1392,7 @@ Logging verbosity is set to: Detailed.     1>Project "E:\Project\SOFT20091-SDI\Q
        Done executing task "WriteLinesToFile".
        Using "Touch" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
        Task "Touch"
-         Touching "build\x64\Debug\QtConsol.939CEFA8.tlog\unsuccessfulbuild".
+         Creating "build\x64\Debug\QtConsol.939CEFA8.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
        Done executing task "Touch".
      1>Done building target "InitializeBuildStatus" in project "QtConsoleApplication3.vcxproj".
      1>Target "QtVarsPrepare" in file "C:\Users\CB\AppData\Local\QtMsBuild\qt_vars.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "QtOuterBuild" depends on it):
@@ -1437,7 +1437,7 @@ Logging verbosity is set to: Detailed.     1>Project "E:\Project\SOFT20091-SDI\Q
        Task "MSBuild"
          Global Properties:
            QtInnerBuild=E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj
-           RandomFileName=bkxiichc.0km
+           RandomFileName=tdzscxy2.yry
      0>Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
        Trying to import C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\$(MSBuildToolsVersion)\Microsoft.Common.props using extensions path C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild
        Property reassignment: $(MSBuildProjectExtensionsPath)="E:\Project\SOFT20091-SDI\obj\" (previous value: "obj\") at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Microsoft.Common.props (56,5)
@@ -2592,7 +2592,7 @@ Logging verbosity is set to: Detailed.     1>Project "E:\Project\SOFT20091-SDI\Q
            ") at C:\Users\CB\AppData\Local\QtMsBuild\qml\qtqml.targets (51,5)
        Property reassignment: $(QtBuildTargets)="QtRepc;QtRcc;QtMoc;;QtQmlCache" (previous value: "QtRcc;QtMoc;;QtQmlCache") at C:\Users\CB\AppData\Local\QtMsBuild\repc\qtrepc.targets (51,5)
        Property reassignment: $(QtBuildTargets)="QtUic;QtRepc;QtRcc;QtMoc;;QtQmlCache" (previous value: "QtRepc;QtRcc;QtMoc;;QtQmlCache") at C:\Users\CB\AppData\Local\QtMsBuild\uic\qtuic.targets (51,5)
-       Property reassignment: $(MSBuildAllProjects)="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.Default.props;;E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.targets;E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj.user;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Xaml.targets;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\NuGet\16.0\Microsoft.NuGet.targets" (previous value: ";E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.targets;E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj.user;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Xaml.targets;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\NuGet\16.0\Microsoft.NuGet.targets") at 
+       Property reassignment: $(MSBuildAllProjects)="E:\Project\SOFT20091-SDI\build\x64\Debug\qmake\qtvars_x64_Debug.props;;E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.targets;E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj.user;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Xaml.targets;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\NuGet\16.0\Microsoft.NuGet.targets" (previous value: ";E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.targets;E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj.user;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Xaml.targets;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\NuGet\16.0\Microsoft.NuGet.targets") at 
        Overriding target "GetFrameworkPaths" in project "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" with target "GetFrameworkPaths" from project "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets".
        Overriding target "SatelliteDllsProjectOutputGroup" in project "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" with target "SatelliteDllsProjectOutputGroup" from project "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets".
        Overriding target "GenerateTargetFrameworkMonikerAttribute" in project "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" with target "GenerateTargetFrameworkMonikerAttribute" from project "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets".
@@ -2659,10 +2659,10 @@ Logging verbosity is set to: Detailed.     1>Project "E:\Project\SOFT20091-SDI\Q
    1:2>Target "SetTelemetryEnvironmentVariables" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.DesignTime.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "Build" depends on it):
        Using "SetEnv" task from assembly "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Build.CppTasks.Common.dll".
        Task "SetEnv"
-         VSTEL_SolutionSessionID={C95E2386-7FA7-4433-9F3A-AA0E210ACFCE}
+         VSTEL_SolutionSessionID={CA4C0066-6244-42E6-BEFD-C319E41734F9}
        Done executing task "SetEnv".
        Task "SetEnv"
-         VSTEL_CurrentSolutionBuildID=24974859
+         VSTEL_CurrentSolutionBuildID=16710484
        Done executing task "SetEnv".
        Task "SetEnv"
          VSTEL_ProjectID={939CEFA8-A703-4E52-B447-B8D00E16C3D0}
@@ -3049,39 +3049,341 @@ Logging verbosity is set to: Detailed.     1>Project "E:\Project\SOFT20091-SDI\Q
        Task "CL" skipped, due to false condition; ('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true' and '%(ClCompile.CompilerIteration)' == '' and '$(MultiProcCL)' != 'true') was evaluated as ('NotUsing' == 'Create' and ''!='true' and '' == '' and 'false' != 'true').
        Using "CL" task from assembly "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Build.CppTasks.Common.dll".
        Task "CL"
-         Read Tracking Logs:
-         	build\x64\Debug\QtConsol.939CEFA8.tlog\CL.read.1.tlog
+         Using cached input dependency table built from:
+         	E:\Project\SOFT20091-SDI\build\x64\Debug\QtConsol.939CEFA8.tlog\CL.read.1.tlog
          Outputs for E:\PROJECT\SOFT20091-SDI\MAIN.CPP|E:\PROJECT\SOFT20091-SDI\QAPP.CPP:
          	E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MAIN.OBJ
          	E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\QAPP.OBJ
-         QApp.cpp will be compiled because it was not found in the tracking log.
+         QApp.cpp will be compiled because E:\Project\SOFT20091-SDI\QApp.cpp was modified at 14/03/2020 21:22:57.
          Outputs for E:\PROJECT\SOFT20091-SDI\QAPP.CPP:
          	E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\QAPP.OBJ
          Write Tracking Logs:
          	build\x64\Debug\QtConsol.939CEFA8.tlog\CL.write.1.tlog
          Environment Variables passed to tool:
-           VS_UNICODE_OUTPUT=1684
+           VS_UNICODE_OUTPUT=3044
          C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64\CL.exe /c /Ibuild\x64\Debug\moc /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtWidgets /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtGui /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtANGLE /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtCore /I/include /I"C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\mkspecs\win32-msvc" /Ibuild\x64\Debug\moc /Zi /nologo /W1 /WX- /diagnostics:column /MP /O2 /D UNICODE /D _UNICODE /D WIN32 /D _ENABLE_EXTENDED_ALIGNED_STORAGE /D WIN64 /D NDEBUG /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"build\x64\Debug\\" /Fd"build\x64\Debug\vc142.pdb" /Gd /TP /FC /errorReport:prompt QApp.cpp
          Tracking command:
-         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i E:\Project\SOFT20091-SDI\build\x64\Debug\QtConsol.939CEFA8.tlog /r E:\PROJECT\SOFT20091-SDI\QAPP.CPP /b MSBuildConsole_CancelEvent9b076e026d6b45e4bd28fbdacde35358  /c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64\CL.exe"  /c /Ibuild\x64\Debug\moc /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtWidgets /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtGui /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtANGLE /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtCore /I/include /I"C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\mkspecs\win32-msvc" /Ibuild\x64\Debug\moc /Zi /nologo /W1 /WX- /diagnostics:column /MP /O2 /D UNICODE /D _UNICODE /D WIN32 /D _ENABLE_EXTENDED_ALIGNED_STORAGE /D WIN64 /D NDEBUG /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"build\x64\Debug\\" /Fd"build\x64\Debug\vc142.pdb" /Gd /TP /FC /errorReport:prompt QApp.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i E:\Project\SOFT20091-SDI\build\x64\Debug\QtConsol.939CEFA8.tlog /r E:\PROJECT\SOFT20091-SDI\QAPP.CPP /b MSBuildConsole_CancelEvente3064d7f861444e892bed8fd61a2bd0f  /c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64\CL.exe"  /c /Ibuild\x64\Debug\moc /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtWidgets /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtGui /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtANGLE /IC:\Qt\Qt5.14.0\5.14.0\msvc2017_64\include\QtCore /I/include /I"C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\mkspecs\win32-msvc" /Ibuild\x64\Debug\moc /Zi /nologo /W1 /WX- /diagnostics:column /MP /O2 /D UNICODE /D _UNICODE /D WIN32 /D _ENABLE_EXTENDED_ALIGNED_STORAGE /D WIN64 /D NDEBUG /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"build\x64\Debug\\" /Fd"build\x64\Debug\vc142.pdb" /Gd /TP /FC /errorReport:prompt QApp.cpp
          QApp.cpp
-   1:2>E:\Project\SOFT20091-SDI\QApp.cpp(155,24): error C3867: 'QAbstractItemView::currentIndex': non-standard syntax; use '&' to create a pointer to member
-         The command exited with code 2.
-       Done executing task "CL" -- FAILED.
-   1:2>Done building target "ClCompile" in project "QtConsoleApplication3.vcxproj" -- FAILED.
-   1:2>Done Building Project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (Build target(s)) -- FAILED.
-     1>Done executing task "MSBuild" -- FAILED.
-     1>Done building target "QtOuterBuild" in project "QtConsoleApplication3.vcxproj" -- FAILED.
-     1>Done Building Project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (Build target(s)) -- FAILED.
+       Done executing task "CL".
+       Task "CL"
+         Read Tracking Logs:
+         	build\x64\Debug\QtConsol.939CEFA8.tlog\CL.read.1.tlog
+         Outputs for E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MOC\MOC_QAPP.CPP:
+         	E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MOC_QAPP.OBJ
+         All outputs are up-to-date.
+       Done executing task "CL".
+   1:2>Done building target "ClCompile" in project "QtConsoleApplication3.vcxproj".
+       Target "RunSelectedFileNativeCodeAnalysis" skipped, due to false condition; ('$(RunMsvcAnalysis)'=='true' and '$(SelectedFiles)'!='') was evaluated as ('false'=='true' and ''!='').
+       Target "ManagedIncrementalBuildPostProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('main.cpp;QApp.cpp;build\x64\Debug\\moc\moc_QApp.cpp' != '' and 'false' == 'True').
+       Target "NoAnalysisToolEnabledWarning" skipped, due to false condition; ('$(RunCppAnalysis)'=='true' AND '$(EnableMicrosoftCodeAnalysis)'=='false' AND '$(EnableClangTidyCodeAnalysis)'=='false') was evaluated as ('false'=='true' AND 'true'=='false' AND 'false'=='false').
+       Target "RunSelectedFileClangTidy" skipped, due to false condition; ('$(RunClangCppAnalysis)'=='true' AND '$(SelectedFiles)'!='') was evaluated as ('false'=='true' AND ''!='').
+       Target "MicrosoftAnalysisIncompatiableWithClangCl" skipped, due to false condition; ('$(RunCppAnalysis)'=='true' AND '$(EnableMicrosoftCodeAnalysis)'=='true' AND '$(UseClangCl)'=='true') was evaluated as ('false'=='true' AND 'true'=='true' AND ''=='true').
+   1:2>Target "AfterClCompile" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_ClCompile" depends on it):
+   1:2>Done building target "AfterClCompile" in project "QtConsoleApplication3.vcxproj".
+   1:2>Target "_ClCompile" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_BuildCompileAction" depends on it):
+   1:2>Done building target "_ClCompile" in project "QtConsoleApplication3.vcxproj".
+       Target "_ResGen" skipped, due to false condition; ('@(EmbeddedResource)'!='') was evaluated as (''!='').
+   1:2>Target "BeforeResourceCompile" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_ResourceCompile" depends on it):
+   1:2>Done building target "BeforeResourceCompile" in project "QtConsoleApplication3.vcxproj".
+   1:2>Target "MakeDirsForResourceCompile" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_ResourceCompile" depends on it):
+       Task "MakeDir"
+       Done executing task "MakeDir".
+   1:2>Done building target "MakeDirsForResourceCompile" in project "QtConsoleApplication3.vcxproj".
+       Target "ResourceCompile" skipped, due to false condition; ('@(ResourceCompile)' != '') was evaluated as ('' != '').
+   1:2>Target "AfterResourceCompile" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_ResourceCompile" depends on it):
+   1:2>Done building target "AfterResourceCompile" in project "QtConsoleApplication3.vcxproj".
+   1:2>Target "_ResourceCompile" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_BuildCompileAction" depends on it):
+   1:2>Done building target "_ResourceCompile" in project "QtConsoleApplication3.vcxproj".
+       Target "_ImpLib" skipped, due to false condition; ('$(ImpLibCompiled)' == 'true') was evaluated as ('' == 'true').
+       Target "_Lib" skipped, due to false condition; ('$(LibCompiled)' == 'true') was evaluated as ('' == 'true').
+   1:2>Target "AfterBuildCompileEvent" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_BuildCompileAction" depends on it):
+   1:2>Done building target "AfterBuildCompileEvent" in project "QtConsoleApplication3.vcxproj".
+   1:2>Target "_BuildCompileAction" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "BuildCompile" depends on it):
+   1:2>Done building target "_BuildCompileAction" in project "QtConsoleApplication3.vcxproj".
+   1:2>Target "BuildCompile" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "Build" depends on it):
+   1:2>Done building target "BuildCompile" in project "QtConsoleApplication3.vcxproj".
+       Target "PrepareProjectReferences" skipped. Previously built successfully.
+   1:2>Target "BuildLinkTraverse" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "BuildLink" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+   1:2>Done building target "BuildLinkTraverse" in project "QtConsoleApplication3.vcxproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "ResolveReferences" skipped. Previously built successfully.
+   1:2>Target "ComputeLegacyManifestEmbedding" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_BuildLinkAction" depends on it):
+       Task "VCMessage" skipped, due to false condition; ('$(RevertManifestEmbedding)' == 'true' and '$(_LegacyManifestEmbeddingDebug)' == 'true') was evaluated as ('' == 'true' and '' == 'true').
+   1:2>Done building target "ComputeLegacyManifestEmbedding" in project "QtConsoleApplication3.vcxproj".
+   1:2>Target "BeforeLink" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_Link" depends on it):
+   1:2>Done building target "BeforeLink" in project "QtConsoleApplication3.vcxproj".
+   1:2>Target "ComputeRCOutputs" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "ComputeRCGeneratedLinkInputs" depends on it):
+   1:2>Done building target "ComputeRCOutputs" in project "QtConsoleApplication3.vcxproj".
+   1:2>Target "ComputeRCGeneratedLinkInputs" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_Link" depends on it):
+   1:2>Done building target "ComputeRCGeneratedLinkInputs" in project "QtConsoleApplication3.vcxproj".
+   1:2>Target "ComputeManifestGeneratedLinkerInputs" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_Link" depends on it):
+   1:2>Done building target "ComputeManifestGeneratedLinkerInputs" in project "QtConsoleApplication3.vcxproj".
+       Target "ComputeCustomBuildOutput" skipped. Previously built successfully.
+       Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+       Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+       Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+       Target "WarnCompileDuplicatedFilename" skipped. Previously built successfully.
+       Target "FixupCLCompileOptions" skipped. Previously built successfully.
+       Target "Qt" skipped. Previously built successfully.
+   1:2>Target "ComputeCLOutputs" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "ComputeCLGeneratedLinkInputs" depends on it):
+   1:2>Done building target "ComputeCLOutputs" in project "QtConsoleApplication3.vcxproj".
+   1:2>Target "ComputeCLGeneratedLinkInputs" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_Link" depends on it):
+   1:2>Done building target "ComputeCLGeneratedLinkInputs" in project "QtConsoleApplication3.vcxproj".
+   1:2>Target "ComputeLinkInputsFromProject" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_Link" depends on it):
+   1:2>Done building target "ComputeLinkInputsFromProject" in project "QtConsoleApplication3.vcxproj".
+       Target "ComputeReferenceLinkInputs" skipped, due to false condition; (@(ProjectReference) != '') was evaluated as ( != '').
+       Target "Qt" skipped. Previously built successfully.
+   1:2>Target "ComputeManifestInputsTargets" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_Link" depends on it):
+   1:2>Done building target "ComputeManifestInputsTargets" in project "QtConsoleApplication3.vcxproj".
+       Target "ManifestResourceCompile" skipped, due to false condition; ('$(EmbedManifestBy)' == 'LINK' and '@(Manifest)' != '') was evaluated as ('MT' == 'LINK' and '' != '').
+       Target "AssignWinFXEmbeddedResource" skipped, due to false condition; ('@(WinFXEmbeddedResource)' != '') was evaluated as ('' != '').
+   1:2>Target "AssignTargetPaths" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "PrepareResourceNames" depends on it):
+       Using "AssignTargetPath" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+       Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and ''=='.manifest').
+   1:2>Done building target "AssignTargetPaths" in project "QtConsoleApplication3.vcxproj".
+       Target "AssignTargetPaths" skipped. Previously built successfully.
+   1:2>Target "SplitResourcesByCulture" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "PrepareResourceNames" depends on it):
+       Task "Warning" skipped, due to false condition; ('@(ResxWithNoCulture)'!='') was evaluated as (''!='').
+       Task "Warning" skipped, due to false condition; ('@(ResxWithCulture)'!='') was evaluated as (''!='').
+       Task "Warning" skipped, due to false condition; ('@(NonResxWithCulture)'!='') was evaluated as (''!='').
+       Task "Warning" skipped, due to false condition; ('@(NonResxWithNoCulture)'!='') was evaluated as (''!='').
+       Using "AssignCulture" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "AssignCulture"
+       Done executing task "AssignCulture".
+   1:2>Done building target "SplitResourcesByCulture" in project "QtConsoleApplication3.vcxproj".
+       Target "CreateManifestResourceNames" skipped, due to false condition; ('@(EmbeddedResource)' != '') was evaluated as ('' != '').
+   1:2>Target "CreateCustomManifestResourceNames" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "PrepareResourceNames" depends on it):
+   1:2>Done building target "CreateCustomManifestResourceNames" in project "QtConsoleApplication3.vcxproj".
+   1:2>Target "PrepareResourceNames" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_Link" depends on it):
+   1:2>Done building target "PrepareResourceNames" in project "QtConsoleApplication3.vcxproj".
+   1:2>Target "MakeDirsForLink" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_Link" depends on it):
+       Task "MakeDir"
+       Done executing task "MakeDir".
+   1:2>Done building target "MakeDirsForLink" in project "QtConsoleApplication3.vcxproj".
+   1:2>Target "DoLinkOutputFilesMatch" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_Link" depends on it):
+       Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' == '') was evaluated as ('E:\Project\SOFT20091-SDI\build\x64\Debug\\QtConsoleApplication3.exe' == '').
+       Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))') was evaluated as ('E:\Project\SOFT20091-SDI\build\x64\Debug\\QtConsoleApplication3.exe' != '' and 'E:\Project\SOFT20091-SDI\build\x64\Debug\QtConsoleApplication3.exe' != 'E:\Project\SOFT20091-SDI\build\x64\Debug\QtConsoleApplication3.exe').
+       Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Extension)' != '' and '%(_OutputFileFromLink.Extension)' != '$(TargetExt)') was evaluated as ('E:\Project\SOFT20091-SDI\build\x64\Debug\\QtConsoleApplication3.exe' != '' and '.exe' != '' and '.exe' != '.exe').
+       Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Filename)' != '' and '%(_OutputFileFromLink.Filename)' != '$(TargetName)') was evaluated as ('E:\Project\SOFT20091-SDI\build\x64\Debug\\QtConsoleApplication3.exe' != '' and 'QtConsoleApplication3' != '' and 'QtConsoleApplication3' != 'QtConsoleApplication3').
+       Task "VCMessage" skipped, due to false condition; ('%(Link.MinimumRequiredVersion)' != '' and ('%(Link.Subsystem)' == '' or '%(Link.Subsystem)' == 'NotSet')) was evaluated as ('' != '' and ('Console' == '' or 'Console' == 'NotSet')).
+   1:2>Done building target "DoLinkOutputFilesMatch" in project "QtConsoleApplication3.vcxproj".
+   1:2>Target "PreLinkEvent" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_Link" depends on it):
+       Task "Message" skipped, due to false condition; ('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+       Task "Exec" skipped, due to false condition; ('%(PreLinkEvent.Command)' != '') was evaluated as ('' != '').
+   1:2>Done building target "PreLinkEvent" in project "QtConsoleApplication3.vcxproj".
+   1:2>Target "ComputeLinkSwitches" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "Link" depends on it):
+   1:2>Done building target "ComputeLinkSwitches" in project "QtConsoleApplication3.vcxproj".
+   1:2>Target "Link" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_Link" depends on it):
+       Using "Link" task from assembly "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Build.CppTasks.Common.dll".
+       Task "Link"
+         Write Tracking Logs:
+         	build\x64\Debug\QtConsol.939CEFA8.tlog\link.write.1.tlog
+         Read Tracking Logs:
+         	build\x64\Debug\QtConsol.939CEFA8.tlog\link.read.1.tlog
+         Outputs for E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MAIN.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MOC_QAPP.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\QAPP.OBJ:
+         	E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\QTCONSOLEAPPLICATION3.EXE
+         	E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\QTCONSOLEAPPLICATION3.ILK
+         	E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\QTCONSOLEAPPLICATION3.PDB
+         Inputs for E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MAIN.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MOC_QAPP.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\QAPP.OBJ:
+         	C:\QT\QT5.14.0\5.14.0\MSVC2017_64\LIB\QT5WIDGETSD.LIB
+         	C:\QT\QT5.14.0\5.14.0\MSVC2017_64\LIB\QT5GUID.LIB
+         	C:\QT\QT5.14.0\5.14.0\MSVC2017_64\LIB\QT5CORED.LIB
+         	C:\QT\QT5.14.0\5.14.0\MSVC2017_64\LIB\QTMAIND.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UM\X64\SHELL32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UM\X64\KERNEL32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UM\X64\USER32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UM\X64\GDI32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UM\X64\WINSPOOL.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UM\X64\COMDLG32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UM\X64\ADVAPI32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UM\X64\OLE32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UM\X64\OLEAUT32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UM\X64\UUID.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UM\X64\ODBC32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UM\X64\ODBCCP32.LIB
+         	E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MAIN.OBJ
+         	E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\QAPP.OBJ
+         	E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MOC_QAPP.OBJ
+         	C:\WINDOWS\SYSTEM32\TZRES.DLL
+         	C:\WINDOWS\GLOBALIZATION\SORTING\SORTDEFAULT.NLS
+         	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2019\COMMUNITY\VC\TOOLS\MSVC\14.24.28314\LIB\X64\MSVCPRTD.LIB
+         	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2019\COMMUNITY\VC\TOOLS\MSVC\14.24.28314\LIB\X64\MSVCRTD.LIB
+         	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2019\COMMUNITY\VC\TOOLS\MSVC\14.24.28314\LIB\X64\OLDNAMES.LIB
+         	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2019\COMMUNITY\VC\TOOLS\MSVC\14.24.28314\LIB\X64\VCRUNTIMED.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.17763.0\UCRT\X64\UCRTD.LIB
+         Source compilation required: input E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\QAPP.OBJ is newer than output E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\QTCONSOLEAPPLICATION3.EXE.
+         Environment Variables passed to tool:
+           VS_UNICODE_OUTPUT=1860
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Project\SOFT20091-SDI\build\x64\Debug\\QtConsoleApplication3.exe" /NOLOGO /LIBPATH:C:\openssl\lib /LIBPATH:"C:\Utils\my_sql\mysql-5.7.25-winx64\lib" /LIBPATH:C:\Utils\postgresql\pgsql\lib C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\lib\Qt5Widgetsd.lib C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\lib\Qt5Guid.lib C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\lib\Qt5Cored.lib C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\lib\qtmaind.lib shell32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Project\SOFT20091-SDI\build\x64\Debug\QtConsoleApplication3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Project\SOFT20091-SDI\build\x64\Debug\QtConsoleApplication3.lib" /MACHINE:X64 build\x64\Debug\main.obj
+         build\x64\Debug\QApp.obj
+         build\x64\Debug\moc_QApp.obj
+         Tracking command:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i E:\Project\SOFT20091-SDI\build\x64\Debug\QtConsol.939CEFA8.tlog /r "E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MAIN.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\MOC_QAPP.OBJ|E:\PROJECT\SOFT20091-SDI\BUILD\X64\DEBUG\QAPP.OBJ" /b MSBuildConsole_CancelEventeac60f13a96f461c97e86b4325783550  /c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64\link.exe"  /ERRORREPORT:PROMPT /OUT:"E:\Project\SOFT20091-SDI\build\x64\Debug\\QtConsoleApplication3.exe" /NOLOGO /LIBPATH:C:\openssl\lib /LIBPATH:"C:\Utils\my_sql\mysql-5.7.25-winx64\lib" /LIBPATH:C:\Utils\postgresql\pgsql\lib C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\lib\Qt5Widgetsd.lib C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\lib\Qt5Guid.lib C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\lib\Qt5Cored.lib C:\Qt\Qt5.14.0\5.14.0\msvc2017_64\lib\qtmaind.lib shell32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Project\SOFT20091-SDI\build\x64\Debug\QtConsoleApplication3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Project\SOFT20091-SDI\build\x64\Debug\QtConsoleApplication3.lib" /MACHINE:X64 build\x64\Debug\main.obj
+         build\x64\Debug\QApp.obj
+         build\x64\Debug\moc_QApp.obj
+       Done executing task "Link".
+       Task "Message"
+         QtConsoleApplication3.vcxproj -> E:\Project\SOFT20091-SDI\build\x64\Debug\QtConsoleApplication3.exe
+       Done executing task "Message".
+       Task "VCMessage" skipped, due to false condition; (('$(EmbedManifestBy)' != 'LINK' or '$(LegacyManifestEmbedding)' != 'true' or '$(LinkSkippedExecution)' == 'true') and
+                    %(Link.GenerateDebugInformation) == 'DebugFastLink' and %(Link.ProgramDataBaseFileName) != '') was evaluated as (('MT' != 'LINK' or '' != 'true' or 'False' == 'true') and
+                    true == 'DebugFastLink' and  != '').
+       Task "VCMessage" skipped, due to false condition; (('$(EmbedManifestBy)' != 'LINK' or '$(LegacyManifestEmbedding)' != 'true' or '$(LinkSkippedExecution)' == 'true') and
+                    %(Link.GenerateDebugInformation) == 'true' and %(Link.ProgramDataBaseFileName) != '') was evaluated as (('MT' != 'LINK' or '' != 'true' or 'False' == 'true') and
+                    true == 'true' and  != '').
+   1:2>Done building target "Link" in project "QtConsoleApplication3.vcxproj".
+       Target "MetaGenInputsOutputs" skipped, due to false condition; ('$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('false' == 'True').
+       Target "ComputeMetaGenInputs" skipped, due to false condition; ('$(CLRSupport)'!='' and '$(CLRSupport)'!='false' and '$(CLRSupport)'!='NetCore') was evaluated as ('false'!='' and 'false'!='false' and 'false'!='NetCore').
+       Target "MetaGen" skipped, due to false condition; ('@(MetaGen)' != '') was evaluated as ('' != '').
+   1:2>Target "ComputeLinkImportLibraryOutputsForClean" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_Link" depends on it):
+       Task "WriteLinesToFile" skipped, due to false condition; ('@(_LinkSecondaryOutput)' != '') was evaluated as ('' != '').
+   1:2>Done building target "ComputeLinkImportLibraryOutputsForClean" in project "QtConsoleApplication3.vcxproj".
+   1:2>Target "AfterLink" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_Link" depends on it):
+   1:2>Done building target "AfterLink" in project "QtConsoleApplication3.vcxproj".
+   1:2>Target "_Link" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_BuildLinkAction" depends on it):
+   1:2>Done building target "_Link" in project "QtConsoleApplication3.vcxproj".
+   1:2>Target "_ALink" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_BuildLinkAction" depends on it):
+   1:2>Done building target "_ALink" in project "QtConsoleApplication3.vcxproj".
+       Target "ComputeLegacyManifestEmbedding" skipped. Previously built successfully.
+   1:2>Target "_Manifest" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_BuildLinkAction" depends on it):
+       Task "CallTarget" skipped, due to false condition; ('$(LegacyManifestEmbedding)' == 'true') was evaluated as ('' == 'true').
+   1:2>Done building target "_Manifest" in project "QtConsoleApplication3.vcxproj".
+   1:2>Target "RegisterOutput" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_BuildLinkAction" depends on it):
+       Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('Application'=='DynamicLibrary' and 'false'=='true' and 'false'!='true').
+       Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('Application'=='DynamicLibrary' and 'false'=='true' and 'false'=='true').
+       Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('Application'=='Application' and 'false'=='true' and 'false'!='true').
+       Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('Application'=='Application' and 'false'=='true' and 'false'=='true').
+       Task "VCMessage" skipped, due to false condition; ('$(_RegisterOutputExitCode)' != '' and '$(_RegisterOutputExitCode)' != '0') was evaluated as ('' != '' and '' != '0').
+   1:2>Done building target "RegisterOutput" in project "QtConsoleApplication3.vcxproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "ResolveReferences" skipped. Previously built successfully.
+   1:2>Target "ResolvedXDCMake" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_XdcMake" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '$(_ClCompileGenerateXMLDocumentationFiles)' == 'true') was evaluated as ('' == '.vcxproj' and '' != '' and '' != '' and '' == 'true').
+   1:2>Done building target "ResolvedXDCMake" in project "QtConsoleApplication3.vcxproj".
+   1:2>Target "ComputeCLCompileGeneratedXDCFiles" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_XdcMake" depends on it):
+   1:2>Done building target "ComputeCLCompileGeneratedXDCFiles" in project "QtConsoleApplication3.vcxproj".
+   1:2>Target "MakeDirsForXdcMake" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_XdcMake" depends on it):
+       Task "MakeDir"
+       Done executing task "MakeDir".
+   1:2>Done building target "MakeDirsForXdcMake" in project "QtConsoleApplication3.vcxproj".
+       Target "XdcMake" skipped, due to false condition; ('@(XdcMake)' != '') was evaluated as ('' != '').
+   1:2>Target "_XdcMake" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_BuildLinkAction" depends on it):
+   1:2>Done building target "_XdcMake" in project "QtConsoleApplication3.vcxproj".
+   1:2>Target "ComputeCLCompileGeneratedSbrFiles" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_BscMake" depends on it):
+   1:2>Done building target "ComputeCLCompileGeneratedSbrFiles" in project "QtConsoleApplication3.vcxproj".
+   1:2>Target "MakeDirsForBscMake" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_BscMake" depends on it):
+       Task "MakeDir"
+       Done executing task "MakeDir".
+   1:2>Done building target "MakeDirsForBscMake" in project "QtConsoleApplication3.vcxproj".
+       Target "BscMake" skipped, due to false condition; ('@(BscMake)' != '') was evaluated as ('' != '').
+       Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+   1:2>Target "_BscMake" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_BuildLinkAction" depends on it):
+   1:2>Done building target "_BscMake" in project "QtConsoleApplication3.vcxproj".
+   1:2>Target "_GenerateSatelliteAssemblyInputs" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "CreateSatelliteAssemblies" depends on it):
+       Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+       Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+   1:2>Done building target "_GenerateSatelliteAssemblyInputs" in project "QtConsoleApplication3.vcxproj".
+       Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+       Target "GenerateSatelliteAssemblies" skipped, due to false condition; ('@(_SatelliteAssemblyResourceInputs)' != '') was evaluated as ('' != '').
+   1:2>Target "CreateSatelliteAssemblies" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_BuildLinkAction" depends on it):
+   1:2>Done building target "CreateSatelliteAssemblies" in project "QtConsoleApplication3.vcxproj".
+   1:2>Target "_Appverifier" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_BuildLinkAction" depends on it):
+   1:2>Done building target "_Appverifier" in project "QtConsoleApplication3.vcxproj".
+   1:2>Target "_Deploy" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_BuildLinkAction" depends on it):
+   1:2>Done building target "_Deploy" in project "QtConsoleApplication3.vcxproj".
+       Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+       Target "_CopyFilesMarkedCopyLocal" skipped, due to false condition; ('@(ReferenceCopyLocalPaths)' != '') was evaluated as ('' != '').
+       Target "AssignTargetPaths" skipped. Previously built successfully.
+       Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+       Target "_GetProjectReferenceTargetFrameworkProperties" skipped. Previously built successfully.
+   1:2>Target "GetCopyToOutputDirectoryXamlAppDefs" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+   1:2>Done building target "GetCopyToOutputDirectoryXamlAppDefs" in project "QtConsoleApplication3.vcxproj".
+   1:2>Target "GetCopyToOutputDirectoryItems" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true') was evaluated as ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true').
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+   1:2>Done building target "GetCopyToOutputDirectoryItems" in project "QtConsoleApplication3.vcxproj".
+       Target "_CopyOutOfDateSourceItemsToOutputDirectory" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) was evaluated as ( '' != '' ).
+       Target "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) was evaluated as ( '' != '' ).
+   1:2>Target "_CopySourceItemsToOutputDirectory" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+   1:2>Done building target "_CopySourceItemsToOutputDirectory" in project "QtConsoleApplication3.vcxproj".
+       Target "_CopyAppConfigFile" skipped, due to false condition; ( '@(AppConfigWithTargetPath)' != '' ) was evaluated as ( '' != '' ).
+       Target "_CopyManifestFiles" skipped, due to false condition; ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) was evaluated as ( ''=='true' or ''=='true' ).
+   1:2>Target "_CheckForCompileOutputs" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+   1:2>Done building target "_CheckForCompileOutputs" in project "QtConsoleApplication3.vcxproj".
+       Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+   1:2>Target "CopyFilesToOutputDirectory" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "PrepareForRun" depends on it):
+       Task "Copy" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true') was evaluated as ('true' == 'true' and 'true' != 'true').
+       Task "CopyRefAssembly" skipped, due to false condition; ('$(ProduceReferenceAssembly)' == 'true' and '$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true') was evaluated as ('false' == 'true' and 'true' == 'true' and 'true' != 'true').
+       Task "Message" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)'!='true') was evaluated as ('true' == 'true' and 'true'!='true').
+       Task "Copy" skipped, due to false condition; ('@(AddModules)' != '') was evaluated as ('' != '').
+       Task "Copy" skipped, due to false condition; ('$(_SGenDllCreated)'=='true') was evaluated as ('false'=='true').
+       Using "Copy" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "Copy"
+         Did not copy from file "build\x64\Debug\QtConsoleApplication3.pdb" to file "E:\Project\SOFT20091-SDI\build\x64\Debug\QtConsoleApplication3.pdb" because the "SkipUnchangedFiles" parameter was set to "true" in the project and the files' sizes and timestamps match.
+       Done executing task "Copy".
+       Task "Copy" skipped, due to false condition; ('$(_DocumentationFileProduced)'=='true' and '$(CopyDocumentationFileToOutputDirectory)'=='true') was evaluated as ('false'=='true' and 'true'=='true').
+       Task "Copy" skipped, due to false condition; ('@(IntermediateSatelliteAssembliesWithTargetPath)' != '') was evaluated as ('' != '').
+       Task "Copy" skipped, due to false condition; ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) was evaluated as ('' != '' or '' != '' or '' != '' or '' != '' ).
+       Task "Copy" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') was evaluated as ('' != 'true' and '' != '').
+       Task "Message" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') was evaluated as ('' != 'true' and '' != '').
+   1:2>Done building target "CopyFilesToOutputDirectory" in project "QtConsoleApplication3.vcxproj".
+   1:2>Target "PrepareForRun" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_BuildLinkAction" depends on it):
+   1:2>Done building target "PrepareForRun" in project "QtConsoleApplication3.vcxproj".
+       Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+   1:2>Target "PostBuildEvent" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "_BuildLinkAction" depends on it):
+       Task "Message" skipped, due to false condition; ('%(PostBuildEvent.Message)' != '' and '%(PostBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+       Task "Exec" skipped, due to false condition; ('%(PostBuildEvent.Command)' != '') was evaluated as ('' != '').
+   1:2>Done building target "PostBuildEvent" in project "QtConsoleApplication3.vcxproj".
+   1:2>Target "_BuildLinkAction" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "BuildLink" depends on it):
+   1:2>Done building target "_BuildLinkAction" in project "QtConsoleApplication3.vcxproj".
+   1:2>Target "BuildLink" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "Build" depends on it):
+   1:2>Done building target "BuildLink" in project "QtConsoleApplication3.vcxproj".
+   1:2>Target "AfterBuild" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "Build" depends on it):
+   1:2>Done building target "AfterBuild" in project "QtConsoleApplication3.vcxproj".
+   1:2>Target "FinalizeBuildStatus" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "Build" depends on it):
+       Using "Delete" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "Delete"
+         Deleting file "build\x64\Debug\QtConsol.939CEFA8.tlog\unsuccessfulbuild".
+       Done executing task "Delete".
+       Task "Touch"
+         Touching "build\x64\Debug\QtConsol.939CEFA8.tlog\QtConsoleApplication3.lastbuildstate".
+       Done executing task "Touch".
+   1:2>Done building target "FinalizeBuildStatus" in project "QtConsoleApplication3.vcxproj".
+       Target "Qt" skipped. Previously built successfully.
+       Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+       Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+   1:2>Target "Build" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (entry point):
+   1:2>Done building target "Build" in project "QtConsoleApplication3.vcxproj".
+   1:2>Done Building Project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (Build target(s)).
+     1>Done executing task "MSBuild".
+     1>Done building target "QtOuterBuild" in project "QtConsoleApplication3.vcxproj".
+     1>Target "FinalizeBuildStatus" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (target "Build" depends on it):
+       Task "Delete" skipped, due to false condition; (Exists($(LastBuildUnsuccessful))) was evaluated as (Exists(build\x64\Debug\QtConsol.939CEFA8.tlog\unsuccessfulbuild)).
+       Task "Touch"
+         Touching "build\x64\Debug\QtConsol.939CEFA8.tlog\QtConsoleApplication3.lastbuildstate".
+       Done executing task "Touch".
+     1>Done building target "FinalizeBuildStatus" in project "QtConsoleApplication3.vcxproj".
+       Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+       Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+     1>Target "Build" in file "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets" from project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (entry point):
+     1>Done building target "Build" in project "QtConsoleApplication3.vcxproj".
+     1>Done Building Project "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (Build target(s)).
 
-Build FAILED.
-
-       "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (Build target) (1) ->
-       "E:\Project\SOFT20091-SDI\QtConsoleApplication3.vcxproj" (Build target) (1:2) ->
-       (ClCompile target) -> 
-         E:\Project\SOFT20091-SDI\QApp.cpp(155,24): error C3867: 'QAbstractItemView::currentIndex': non-standard syntax; use '&' to create a pointer to member
-
+Build succeeded.
     0 Warning(s)
-    1 Error(s)
+    0 Error(s)
 
-Time Elapsed 00:00:01.42
+Time Elapsed 00:00:01.64

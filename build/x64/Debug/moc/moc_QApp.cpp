@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_QAPP_t {
-    QByteArrayData data[8];
-    char stringdata0[63];
+    QByteArrayData data[10];
+    char stringdata0[84];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -38,12 +38,15 @@ QT_MOC_LITERAL(2, 21, 0), // ""
 QT_MOC_LITERAL(3, 22, 1), // "a"
 QT_MOC_LITERAL(4, 24, 9), // "OpenedDir"
 QT_MOC_LITERAL(5, 34, 9), // "ClosedDir"
-QT_MOC_LITERAL(6, 44, 8), // "TestSlot"
-QT_MOC_LITERAL(7, 53, 9) // "CloseMain"
+QT_MOC_LITERAL(6, 44, 11), // "Filehandler"
+QT_MOC_LITERAL(7, 56, 11), // "QModelIndex"
+QT_MOC_LITERAL(8, 68, 5), // "Index"
+QT_MOC_LITERAL(9, 74, 9) // "CloseMain"
 
     },
     "QAPP\0on_opened_state\0\0a\0OpenedDir\0"
-    "ClosedDir\0TestSlot\0CloseMain"
+    "ClosedDir\0Filehandler\0QModelIndex\0"
+    "Index\0CloseMain"
 };
 #undef QT_MOC_LITERAL
 
@@ -66,8 +69,8 @@ static const uint qt_meta_data_QAPP[] = {
  // slots: name, argc, parameters, tag, flags
        4,    0,   42,    2, 0x08 /* Private */,
        5,    0,   43,    2, 0x08 /* Private */,
-       6,    0,   44,    2, 0x08 /* Private */,
-       7,    0,   45,    2, 0x08 /* Private */,
+       6,    1,   44,    2, 0x08 /* Private */,
+       9,    0,   47,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::Bool,    3,
@@ -75,7 +78,7 @@ static const uint qt_meta_data_QAPP[] = {
  // slots: parameters
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void,
+    QMetaType::Void, 0x80000000 | 7,    8,
     QMetaType::Void,
 
        0        // eod
@@ -90,7 +93,7 @@ void QAPP::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void *
         case 0: _t->on_opened_state((*reinterpret_cast< const bool(*)>(_a[1]))); break;
         case 1: _t->OpenedDir(); break;
         case 2: _t->ClosedDir(); break;
-        case 3: _t->TestSlot(); break;
+        case 3: _t->Filehandler((*reinterpret_cast< QModelIndex(*)>(_a[1]))); break;
         case 4: _t->CloseMain(); break;
         default: ;
         }

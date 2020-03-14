@@ -17,7 +17,7 @@ ___The Project may run into linking errors and not build correctly in Visual Stu
  	* An easily accesible CI tool for begginers such as CircleCi may be a good fit
  * __Split MainWindow betwen various SubWidgets__ _(QSplitter Class may be usefull for this)
 
- 
+ * __Allow portable binaries to be compiled with seperate .Dll dependancies to allow execution without a Qt Installation__ *
  # Secondary
 	Add theme support for improved Aesthetics?
 	Fix project structure
