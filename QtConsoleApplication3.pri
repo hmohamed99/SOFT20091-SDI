@@ -8,6 +8,10 @@ message("You are running qmake on a generated .pro file. This may not work!")
 
 
 HEADERS += ./QApp.h \
+    ./CustomItemListModel.h \
+    ./ItemGridModel.h \
     ./src/QAppWidget.h
-SOURCES += ./main.cpp \
+SOURCES += ./ItemGridModel.cpp \
+    ./CustomItemListModel.cpp \
+    ./main.cpp \
     ./QApp.cpp
