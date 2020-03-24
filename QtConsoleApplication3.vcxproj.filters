@@ -50,22 +50,5 @@
     <QtMoc Include="QApp.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <ClInclude Include="src\QAppWidget.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="GeneratedFiles\moc_CustomItemListModel.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\moc_ItemGridModel.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\moc_QApp.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
-    <CustomBuild Include="GeneratedFiles\moc_predefs.h.cbt">
-      <Filter>Generated Files</Filter>
-    </CustomBuild>
   </ItemGroup>
 </Project>

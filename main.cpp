@@ -1,10 +1,10 @@
-#include <Qapplication.h>
+#include <Qapplication>
 #include <QPushButton>
 
 #include <iostream>
 #include <QtCore>
-#include <qdesktopservices.h>
-#include <qobject.h>
+#include <qdesktopservices>
+#include <qobject>
 #include "QApp.h"
 
 
