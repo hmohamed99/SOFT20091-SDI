@@ -32,9 +32,21 @@
     <ClCompile Include="QApp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ItemGridModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomItemListModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="QApp.h">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ItemGridModel.h">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CustomItemListModel.h">
       <Filter>Source Files</Filter>
     </QtMoc>
   </ItemGroup>

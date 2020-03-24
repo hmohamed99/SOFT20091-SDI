@@ -12,9 +12,13 @@
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="QApp.h" />
+    <QtMoc Include="CustomItemListModel.h" />
+    <QtMoc Include="ItemGridModel.h" />
     <ClInclude Include="src\QAppWidget.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ItemGridModel.cpp" />
+    <ClCompile Include="CustomItemListModel.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="QApp.cpp" />
   </ItemGroup>
@@ -51,8 +55,8 @@
     <OutDir>$(SolutionDir)build\$(Platform)\$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>$(SolutionDir)\build\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>build\$(Platform)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)build\$(Platform)\$(Configuration)\</OutDir>
   </PropertyGroup>
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt_defaults.props')">
     <Import Project="$(QtMsBuild)\qt_defaults.props" />
