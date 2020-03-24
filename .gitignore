@@ -2,3 +2,5 @@
 .vs/
 source2.h
 styles.md
+build/x64/Debug.7z
+build/x64/Debug.zip
