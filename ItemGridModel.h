@@ -1,8 +1,7 @@
 #pragma once
 
 #include <QAbstractItemModel>
-//#include <QAbstractListModel>
-#include <QTGlobal>
+//#include <QtGlobal>
 /**https://doc.qt.io/qt-5/model-view-programming.html#a-read-only-example-model*/
 /** This directly Overides QALM to allow for the ability to act as a special Read-Only Version/Alternative*/
 /** Could use this as an array of Qimages for thumbnails */

@@ -16,8 +16,6 @@
     <QtMoc Include="ItemGridModel.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ItemGridModel.cpp" />
-    <ClCompile Include="CustomItemListModel.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="QApp.cpp" />
   </ItemGroup>

@@ -3,14 +3,11 @@
 //#define QAPP
 #include <QWidget>
 #include <QPushButton>
-#include <QMainWindow>
+//#include <QMainWindow>
 #include <QUrl>
 #include <QSplitter>
 #include <QListView>
 #include <QFileSystemModel>
-#include <QSplitter>
-#include <QStandardItemModel>
-#include <QListView>
 
 #include "CustomItemListModel.h"
 

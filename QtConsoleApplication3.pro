@@ -8,10 +8,10 @@ DESTDIR = ./build/x64/Debug
 CONFIG += debug console
 LIBS += -L"."
 DEPENDPATH += .
-#MOC_DIR += ./GeneratedFiles/$(ConfigurationName)
+MOC_DIR += ./GeneratedFiles/$(ConfigurationName)
 OBJECTS_DIR += debug
-#UI_DIR += ./GeneratedFiles
-#RCC_DIR += ./GeneratedFiles
+UI_DIR += ./GeneratedFiles
+RCC_DIR += ./GeneratedFiles
 
 HEADERS += ./QApp.h \
     ./CustomItemListModel.h \

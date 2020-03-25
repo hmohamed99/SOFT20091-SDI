@@ -1,10 +1,8 @@
 #include <QApplication>
-#include <QPushButton>
 
-#include <iostream>
+//#include <iostream>
 #include <QtCore>
-#include <QObject>
-#include <type_traits>
+//#include <type_traits>
 #include "QApp.h"
 
 

@@ -1,12 +1,8 @@
-#include <QApplication>
+//#include <QApplication>
 #include <QPushButton>
 
-#include <iostream>
 #include <QtCore>
-#include <QDesktopServices>
-#include <QObject>
 #include <QSplitter>
-#include <QMouseEvent>
 #include "CustomItemListModel.h"
 #include "ItemGridModel.h"
 #include "QApp.h"
