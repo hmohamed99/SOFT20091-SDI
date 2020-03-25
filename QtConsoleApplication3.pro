@@ -4,12 +4,17 @@
 QT += core gui widgets
 TEMPLATE = app
 TARGET = QtConsoleApplication3
-DESTDIR = ./build/x64/Debug
-CONFIG += debug console
-LIBS += -L"."
-DEPENDPATH += .
-MOC_DIR += ./GeneratedFiles/$(ConfigurationName)
-OBJECTS_DIR += debug
-UI_DIR += ./GeneratedFiles
-RCC_DIR += ./GeneratedFiles
-include(QtConsoleApplication3.pri)
+#DESTDIR = ./build/x64/Release
+#CONFIG += release console
+#LIBS += -L"."
+#DEPENDPATH += .
+#MOC_DIR += ./GeneratedFiles/$(ConfigurationName)
+#OBJECTS_DIR += QMAKE_CFLAGS_RELEASE
+#UI_DIR += ./GeneratedFiles
+#RCC_DIR += ./GeneratedFiles
+
+HEADERS += ./QApp.h \
+    ./CustomItemListModel.h \
+    ./ItemGridModel.h
+SOURCES += ./main.cpp \
+    ./QApp.cpp

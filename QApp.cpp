@@ -1,11 +1,11 @@
-#include <Qapplication>
+#include <QApplication>
 #include <QPushButton>
 
 #include <iostream>
 #include <QtCore>
-#include <qdesktopservices>
-#include <qobject>
-#include <qsplitter>
+#include <QDesktopServices>
+#include <QObject>
+#include <QSplitter>
 #include <QMouseEvent>
 #include "CustomItemListModel.h"
 #include "ItemGridModel.h"
@@ -19,38 +19,22 @@ QAPP::QAPP(QWidget* parent) : QSplitter(parent)/*, QApplication(argc, argv)*/ //
 	TestWidget->setMinimumSize(500, 500);
 	//A = new QStringListModel(InputImages);
 
-	AddImgs = new QPushButton(TestWidget); /** Places button within the "Parent" QMaiNWindow /**Must include this to ensure Button is placed corerctly within the QWidget/QmaiNWindow and not as a seperate QObject!**/
-	//AddImgs->setGeometry(50, 50, 300, 30);
-	//QDesktopServices QD;
-	//QD = new QDesktopServices();
-	//QM = new QPoint();
+    AddImgs = new QPushButton(TestWidget); /** Place button within the "Parent" QMaiNWindow Must include this to ensure Button is placed corerctly within the QWidget/QmaiNWindow and not as a seperate QObject!*/
 	Exit = new QPushButton(TestWidget);
 	AddImgs->setGeometry(50, 50, 300, 30);
-	//AddImgs->setFixedSize(300, 30);
-	//AddImgs->setMaximumSize(300, 30);
-	//Exit->setMaximumSize(300, 30);
 	
 	Exit->setGeometry(50, 100, 300, 30);
-	//Exit->setFixedSize(300, 30);
-	//Exit->setLocale
 
 	//TreeView TV;
 	/**Must have QObjects as pointers otherwise connection methods cannot be accessed correctly**/
 	{
 		AddImgs->setText("Open");
 		Exit->setText("Exit");
-		//setOrientation(Qt::Vertical);
-		//connect(AddImgs, SIGNAL(clicked()), this, SLOT(OpenedDir()));
 		connect(QAPP::AddImgs, &QPushButton::clicked, this, &QAPP::OpenedDir);
-		//connect(Exit, SIGNAL(clicked()), this, SLOT(CloseMain()));
 		connect(QAPP::Exit, &QPushButton::clicked, this, &QAPP::CloseMain);
-		//connect(QAPP::OpenRoot, &QPushButton::clicked, this, &QAPP::OpenedRoot);
 		
 
 	}
-		//setMinimumSize(400, 800);
-	//QW->setMinimumSize(200, 200);
-	//addWidget(QW);
 	QAPP::show();
 
 }

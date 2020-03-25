@@ -122,9 +122,5 @@ public:
 
 
 private: /** Functions as the Argument list for this Overriding class: it is also possible to use mroe than one accepted/Specified argment with accompanying constructors*/
-	//QStringList stringList;
 	QList<QString> List; /**This must match the Argument(s) provided to this class otherwise the Object will not be constructed properly */
-	//QList<QUrl> Url; /**This must match the Argument(s) provided to this class otherwise the Object will not be constructed properly */
-	//QList<int> num; /**This must match the Argument(s) provided to this class otherwise the Object will not be constructed properly */
-	//QList<QImage> Image; /**This must match the Argument(s) provided to this class otherwise the Object will not be constructed properly */
 };

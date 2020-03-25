@@ -1,14 +1,14 @@
 #pragma once
 //#ifndef QAPP
 //#define QAPP
-#include <qwidget>
+#include <QWidget>
 #include <QPushButton>
 #include <QMainWindow>
-#include <qurl>
+#include <QUrl>
 #include <QSplitter>
 #include <QListView>
-#include <qfilesystemmodel>
-#include <qsplitter>
+#include <QFileSystemModel>
+#include <QSplitter>
 #include <QStandardItemModel>
 #include <QListView>
 
