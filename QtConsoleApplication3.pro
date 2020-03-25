@@ -9,7 +9,7 @@ CONFIG += debug console
 #LIBS += -L"."
 #DEPENDPATH += .
 #MOC_DIR += ./GeneratedFiles/$(ConfigurationName)
-OBJECTS_DIR += QMAKE_CFLAGS_DEBUG
+OBJECTS_DIR += debug
 #UI_DIR += ./GeneratedFiles
 #RCC_DIR += ./GeneratedFiles
 
