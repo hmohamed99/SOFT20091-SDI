@@ -4,12 +4,12 @@
 QT += core gui widgets
 TEMPLATE = app
 TARGET = QtConsoleApplication3
-#DESTDIR = ./build/x64/Release
+DESTDIR = ./build/x64/Release
 CONFIG += debug console
 #LIBS += -L"."
 #DEPENDPATH += .
 #MOC_DIR += ./GeneratedFiles/$(ConfigurationName)
-#OBJECTS_DIR += QMAKE_CFLAGS_RELEASE
+OBJECTS_DIR += QMAKE_CFLAGS_DEBUG
 #UI_DIR += ./GeneratedFiles
 #RCC_DIR += ./GeneratedFiles
 
