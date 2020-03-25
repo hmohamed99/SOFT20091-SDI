@@ -4,7 +4,7 @@
 QT += core gui widgets
 TEMPLATE = app
 TARGET = QtConsoleApplication3
-DESTDIR = ./build/x64/Release
+DESTDIR = ./build/x64/Debug
 CONFIG += debug console
 LIBS += -L"."
 DEPENDPATH += .
